@@ -1,0 +1,222 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Servizi",
+    "Projects": "Progetti",
+    "process": "Processo",
+    "standards": "Standard",
+    "contact": "Contatto",
+    "selectLanguage": "Lingua"
+  },
+  "hero": {
+    "eyebrow": "Nebula Sur | partner sistemi AI",
+    "title": "Ottimizzazione senza limiti per aziende ambiziose.",
+    "subtitle": "AI, automazione dei processi, digitalizzazione, formazione, consulenza e auditing orientati a risultati misurabili.",
+    "description": "Guidiamo la trasformazione tecnologica della tua azienda con soluzioni di IA, automazione e digitalizzazione progettate per scalare in sicurezza, ottimizzare le operazioni e trasformare i dati in decisioni di business.",
+    "primaryCta": "Servizi",
+    "secondaryCta": "Contatto",
+    "visualCaption": "La tua azienda, in un'altra dimensione.",
+    "chips": [
+      "Strategia AI",
+      "Automazione dei Processi",
+      "Digital Operations",
+      "Formazione Team",
+      "Consulenza",
+      "Audit Readiness"
+    ]
+  },
+  "metrics": {
+    "eyebrow": "Segnali di fiducia",
+    "title": "Progettato per velocità di esecuzione e governance",
+    "items": [
+      {
+        "value": "48h",
+        "label": "Finestra di diagnosi",
+        "description": "Mappa iniziale delle operazioni e priorità dopo il kickoff."
+      },
+      {
+        "value": "6",
+        "label": "Linee di servizio",
+        "description": "Un framework integrato per AI, automazione e trasformazione digitale."
+      },
+      {
+        "value": "360°",
+        "label": "Visibilità dei processi",
+        "description": "Mappatura trasversale per individuare blocchi, sprechi e opportunità."
+      },
+      {
+        "value": "ROI",
+        "label": "Delivery orientata all'impatto",
+        "description": "Ogni iniziativa collega decisioni tecniche a indicatori di business."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Cosa facciamo",
+    "title": "Servizi end-to-end per accelerare le operazioni",
+    "subtitle": "Nebula Sur integra strategia, engineering ed enablement in un unico livello di esecuzione.",
+    "items": [
+      {
+        "title": "Sistemi AI Applicati",
+        "description": "Progettazione e implementazione di assistenti AI, flussi di retrieval e strumenti di supporto alle decisioni.",
+        "outcome": "Risultato: decisioni più rapide con meno frizione operativa."
+      },
+      {
+        "title": "Automazione dei Processi",
+        "description": "Automazione dei flussi ripetitivi in vendite, finanza, supporto e operazioni interne con controlli chiari.",
+        "outcome": "Risultato: minore carico manuale e meno colli di bottiglia."
+      },
+      {
+        "title": "Programmi di Digitalizzazione",
+        "description": "Migrazione da routine manuali frammentate a workflow digitali connessi con dati coerenti.",
+        "outcome": "Risultato: dati più puliti e maggiore coerenza operativa."
+      },
+      {
+        "title": "Formazione Professionale",
+        "description": "Formazione pratica per adottare sistemi digitali, strumenti AI e disciplina di processo.",
+        "outcome": "Risultato: maggiore adozione e capacità interna sostenibile."
+      },
+      {
+        "title": "Consulenza Strategica",
+        "description": "Supporto su roadmap di trasformazione, prioritizzazione e riduzione dei rischi di esecuzione.",
+        "outcome": "Risultato: focus più chiaro e migliore allocazione degli investimenti."
+      },
+      {
+        "title": "Audit e Compliance Readiness",
+        "description": "Valutazioni operative e tecniche per rafforzare tracciabilità, governance e preparazione all'audit.",
+        "outcome": "Risultato: postura di controllo più solida prima delle verifiche formali."
+      }
+    ]
+  },
+  "Projects": {
+    "eyebrow": "Lavori selezionati",
+    "title": "Progetti",
+    "openDetails": "Clicca per aprire i dettagli del video",
+    "closeModalAria": "Chiudi i dettagli del video",
+    "iframeTitleSuffix": "Anteprima",
+    "items": {
+      "gymTracker": {
+        "title": "Gym Tracker (AppGYM)",
+        "description": "Gym Tracker (AppGYM) è una PWA che registra alimentazione, allenamenti e dati fisici per calcolare il bilancio energetico e l'evoluzione corporea. Inoltre usa l'IA per analizzare le abitudini e offrire raccomandazioni personalizzate per migliorare rendimento e composizione corporea.",
+        "details": [
+          "📊 Monitoraggio nutrizionale: registra pasti, calorie e macronutrienti",
+          "🏋️ Controllo allenamenti: routine, esercizi e progressi",
+          "⚖️ Bilancio energetico: calcolo del dispendio (TDEE) e deficit/surplus",
+          "🤖 Assistenza IA: raccomandazioni, analisi e supporto contestuale",
+          "📈 Storico e metriche: evoluzione di peso, abitudini e performance",
+          "📱 Formato PWA: funziona come app installabile dal browser"
+        ]
+      },
+      "aiAccountingPortal": {
+        "title": "Portale Contabile IA + ERP",
+        "description": "Questo portale automatizza la contabilità con l'IA per estrarre i dati dalle fatture e validarli direttamente con un sistema ERP. Facilita il controllo in tempo reale di fornitori e documenti, garantendo l'integrità delle informazioni tramite processi di sincronizzazione massiva. Consente la supervisione umana e la correzione manuale prima dell'esportazione finale dei dati nel sistema gestionale."
+      },
+      "aiStoreChat": {
+        "title": "Chat IA Integrata nello Store",
+        "description": "È una chat IA integrata nello store che consente di automatizzare gli ordini a partire da prompt in linguaggio naturale e agisce anche come motore di ricerca prodotti. Interpreta l'intenzione dell'utente e genera risposte interattive, inclusi elenchi e selezione prodotti. Supporta l'interazione testuale e l'elaborazione di file TXT e CSV per strutturare automaticamente gli ordini."
+      }
+    },
+    "highlightsAria": "Punti chiave del progetto"
+  },
+  "process": {
+    "eyebrow": "Come eseguiamo",
+    "title": "Modello pratico: dalla diagnosi al risultato",
+    "steps": [
+      {
+        "title": "Audit e mappatura",
+        "description": "Mappiamo sistemi, vincoli e obiettivi per definire una base reale di trasformazione."
+      },
+      {
+        "title": "Roadmap e architettura",
+        "description": "Prioritizziamo iniziative, progettiamo l'architettura e allineiamo la sequenza alla tua realtà operativa."
+      },
+      {
+        "title": "Implementazione e adozione",
+        "description": "Rilasciamo in incrementi controllati e formiamo stakeholder chiave per un'adozione stabile."
+      },
+      {
+        "title": "Ottimizzazione continua",
+        "description": "Monitoriamo i risultati, correggiamo i punti deboli e trasferiamo playbook riutilizzabili al team interno."
+      }
+    ]
+  },
+  "standards": {
+    "eyebrow": "Standard",
+    "title": "Principi di qualità in ogni progetto",
+    "items": [
+      {
+        "title": "Security-first",
+        "description": "Controlli di accesso, limiti dei dati e configurazioni sicure fin dall'inizio."
+      },
+      {
+        "title": "Delivery osservabile",
+        "description": "Ogni fase è documentata con checkpoint espliciti e avanzamento visibile al business."
+      },
+      {
+        "title": "Sistemi modulari",
+        "description": "Le soluzioni sono costruite per evolvere senza ricostruire tutto a ogni cambiamento."
+      },
+      {
+        "title": "Trasferimento di conoscenza",
+        "description": "I team interni ricevono guida pratica per operare in autonomia dopo il rollout."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Prossimo step",
+    "title": "Contatto",
+    "subtitle": "Condividi contesto e priorità. Il modulo apre un'email precompilata per Nebula Sur.",
+    "detailLabels": {
+      "email": "Email",
+      "phone": "Telefono"
+    },
+    "details": {
+      "email": "surnebula@gmail.com",
+      "phone": "+34 655 309 861"
+    },
+    "form": {
+      "name": "Nome",
+      "email": "Email aziendale",
+      "company": "Azienda",
+      "service": "Servizio prioritario",
+      "servicePlaceholder": "Seleziona uno",
+      "message": "Contesto del progetto",
+      "messagePlaceholder": "Descrivi sfida, tempistiche e risultato atteso.",
+      "consent": "Accetto di essere contattato in merito a questa richiesta.",
+      "submit": "Apri bozza email",
+      "success": "La tua bozza email è pronta. Completa l'invio dalla tua casella.",
+      "error": "Controlla i campi obbligatori prima di inviare.",
+      "subjectPrefix": "Richiesta Nebula Sur -",
+      "services": [
+        {
+          "value": "ai-automation",
+          "label": "AI + automazione dei processi"
+        },
+        {
+          "value": "digitalization",
+          "label": "Programma di digitalizzazione"
+        },
+        {
+          "value": "training",
+          "label": "Formazione e adozione"
+        },
+        {
+          "value": "consulting-audit",
+          "label": "Consulenza e auditing"
+        }
+      ],
+      "errors": {
+        "name": "Inserisci almeno 2 caratteri.",
+        "email": "Inserisci un'email valida.",
+        "company": "Inserisci il nome della tua azienda.",
+        "service": "Seleziona un servizio prioritario.",
+        "message": "Scrivi almeno 20 caratteri.",
+        "consent": "Il consenso è obbligatorio per continuare."
+      }
+    }
+  },
+  "footer": {
+    "note": "Landing placeholder. Sostituisci queste risorse demo con materiale reale di produzione.",
+    "rights": "Tutti i diritti riservati."
+  }
+}

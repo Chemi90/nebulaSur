@@ -1,0 +1,222 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "Projects": "Projects",
+    "process": "Process",
+    "standards": "Standards",
+    "contact": "Contact",
+    "selectLanguage": "Language"
+  },
+  "hero": {
+    "eyebrow": "Nebula Sur | AI systems partner",
+    "title": "Optimization without limits for ambitious companies.",
+    "subtitle": "AI, process automation, digitalization, training, consulting, and auditing focused on measurable results.",
+    "description": "We drive your company's technological transformation with AI, automation, and digitalization solutions designed to scale securely, optimize operations, and turn data into business decisions.",
+    "primaryCta": "Services",
+    "secondaryCta": "Contact",
+    "visualCaption": "Your company, in another dimension.",
+    "chips": [
+      "AI Strategy",
+      "Process Automation",
+      "Digital Operations",
+      "Team Training",
+      "Consulting",
+      "Audit Readiness"
+    ]
+  },
+  "metrics": {
+    "eyebrow": "Trust signals",
+    "title": "Designed for execution speed and governance",
+    "items": [
+      {
+        "value": "48h",
+        "label": "Diagnostic window",
+        "description": "Initial operations map and priorities after kickoff."
+      },
+      {
+        "value": "6",
+        "label": "Service lines",
+        "description": "An integrated framework for AI, automation, and digital transformation."
+      },
+      {
+        "value": "360°",
+        "label": "Process visibility",
+        "description": "Cross-functional mapping to detect blockers, waste, and opportunities."
+      },
+      {
+        "value": "ROI",
+        "label": "Impact-oriented delivery",
+        "description": "Each initiative connects technical decisions with business indicators."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "End-to-end services to accelerate operations",
+    "subtitle": "Nebula Sur integrates strategy, engineering, and enablement into a single execution layer.",
+    "items": [
+      {
+        "title": "Applied AI Systems",
+        "description": "Design and implementation of AI assistants, retrieval flows, and decision-support tools.",
+        "outcome": "Outcome: faster decisions with less operational friction."
+      },
+      {
+        "title": "Process Automation",
+        "description": "Automation of repetitive flows in sales, finance, support, and internal operations with clear controls.",
+        "outcome": "Outcome: lower manual workload and fewer bottlenecks."
+      },
+      {
+        "title": "Digitalization Programs",
+        "description": "Migration from fragmented manual routines to connected digital workflows with consistent data.",
+        "outcome": "Outcome: cleaner data and greater operational consistency."
+      },
+      {
+        "title": "Professional Training",
+        "description": "Practical training to adopt digital systems, AI tools, and process discipline.",
+        "outcome": "Outcome: higher adoption and sustainable internal capability."
+      },
+      {
+        "title": "Strategic Consulting",
+        "description": "Support for transformation roadmap, prioritization, and execution risk reduction.",
+        "outcome": "Outcome: clearer focus and better investment allocation."
+      },
+      {
+        "title": "Auditing and Compliance Readiness",
+        "description": "Operational and technical assessments to strengthen traceability, governance, and audit readiness.",
+        "outcome": "Outcome: stronger control posture before formal reviews."
+      }
+    ]
+  },
+  "Projects": {
+    "eyebrow": "Selected work",
+    "title": "Projects",
+    "openDetails": "Click to open video details",
+    "closeModalAria": "Close video details",
+    "iframeTitleSuffix": "Preview",
+    "items": {
+      "gymTracker": {
+        "title": "Gym Tracker (AppGYM)",
+        "description": "Gym Tracker (AppGYM) is a PWA that tracks nutrition, workouts, and body metrics to calculate energy balance and body composition progress. It also uses AI to analyze habits and provide personalized recommendations to improve performance and composition.",
+        "details": [
+          "📊 Nutrition tracking: log meals, calories, and macros",
+          "🏋️ Workout control: routines, exercises, and progress",
+          "⚖️ Energy balance: TDEE plus deficit/surplus calculation",
+          "🤖 AI assistance: recommendations, analysis, and contextual help",
+          "📈 History and metrics: weight, habits, and performance evolution",
+          "📱 PWA format: works as an installable app from the browser"
+        ]
+      },
+      "aiAccountingPortal": {
+        "title": "AI Accounting Portal + ERP",
+        "description": "This portal automates accounting with AI to extract invoice data and validate it directly against an ERP system. It streamlines real-time control of suppliers and documents, ensuring data integrity through bulk synchronization workflows. It supports human supervision and manual correction before final data export to the management system."
+      },
+      "aiStoreChat": {
+        "title": "AI Store Chat Assistant",
+        "description": "It is an AI chat integrated into the store that automates orders from natural-language prompts and also acts as a product search engine. It interprets user intent and generates interactive responses, including product lists and item selection. It supports text interaction and file processing (TXT and CSV) to structure orders automatically."
+      }
+    },
+    "highlightsAria": "Project highlights"
+  },
+  "process": {
+    "eyebrow": "How we execute",
+    "title": "A practical model: from diagnosis to outcome",
+    "steps": [
+      {
+        "title": "Audit and mapping",
+        "description": "We map systems, constraints, and objectives to define a real transformation baseline."
+      },
+      {
+        "title": "Roadmap and architecture",
+        "description": "We prioritize initiatives, design architecture, and align sequencing with your operational reality."
+      },
+      {
+        "title": "Implementation and adoption",
+        "description": "We deploy in controlled increments and train key stakeholders for stable adoption."
+      },
+      {
+        "title": "Continuous optimization",
+        "description": "We monitor outcomes, adjust weak points, and transfer reusable playbooks to the internal team."
+      }
+    ]
+  },
+  "standards": {
+    "eyebrow": "Standards",
+    "title": "Quality principles in every project",
+    "items": [
+      {
+        "title": "Security-first",
+        "description": "Access controls, data boundaries, and secure configurations from day one."
+      },
+      {
+        "title": "Observable delivery",
+        "description": "Each phase is documented with explicit checkpoints and business-visible progress."
+      },
+      {
+        "title": "Modular systems",
+        "description": "Solutions are built to evolve without rebuilding everything on every change."
+      },
+      {
+        "title": "Knowledge transfer",
+        "description": "Internal teams receive practical guidance to operate autonomously after rollout."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Next step",
+    "title": "Contact",
+    "subtitle": "Share context and priorities. The form opens a pre-filled email for Nebula Sur.",
+    "detailLabels": {
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "details": {
+      "email": "surnebula@gmail.com",
+      "phone": "+34 655 309 861"
+    },
+    "form": {
+      "name": "Name",
+      "email": "Business email",
+      "company": "Company",
+      "service": "Priority service",
+      "servicePlaceholder": "Select one",
+      "message": "Project context",
+      "messagePlaceholder": "Describe challenge, timeline, and expected outcome.",
+      "consent": "I agree to be contacted regarding this request.",
+      "submit": "Open email draft",
+      "success": "Your email draft is ready. Complete sending from your inbox.",
+      "error": "Review required fields before sending.",
+      "subjectPrefix": "Nebula Sur inquiry -",
+      "services": [
+        {
+          "value": "ai-automation",
+          "label": "AI + process automation"
+        },
+        {
+          "value": "digitalization",
+          "label": "Digitalization program"
+        },
+        {
+          "value": "training",
+          "label": "Training and adoption"
+        },
+        {
+          "value": "consulting-audit",
+          "label": "Consulting and auditing"
+        }
+      ],
+      "errors": {
+        "name": "Enter at least 2 characters.",
+        "email": "Enter a valid email.",
+        "company": "Enter your company name.",
+        "service": "Select a priority service.",
+        "message": "Write at least 20 characters.",
+        "consent": "Consent is required to continue."
+      }
+    }
+  },
+  "footer": {
+    "note": "Placeholder landing. Replace these demo resources with real production material.",
+    "rights": "All rights reserved."
+  }
+}

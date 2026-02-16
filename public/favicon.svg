@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#27193A" />
+      <stop offset="55%" stop-color="#1D2847" />
+      <stop offset="100%" stop-color="#194A6A" />
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1BDBEF" />
+      <stop offset="100%" stop-color="#DE2DE7" />
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="16" fill="url(#bg)" />
+  <circle cx="32" cy="32" r="9" fill="#1BDBEF" fill-opacity="0.25" />
+  <circle cx="32" cy="32" r="6" fill="#F0EFF1" fill-opacity="0.95" />
+
+  <ellipse
+    cx="32"
+    cy="32"
+    rx="22"
+    ry="9"
+    fill="none"
+    stroke="url(#ring)"
+    stroke-width="2.8"
+    transform="rotate(-20 32 32)"
+  />
+
+  <text
+    x="13"
+    y="26"
+    font-family="Orbitron, Arial, sans-serif"
+    font-size="13"
+    font-weight="700"
+    fill="#F0EFF1"
+    fill-opacity="0.9"
+  >
+    N
+  </text>
+  <text
+    x="40"
+    y="45"
+    font-family="Orbitron, Arial, sans-serif"
+    font-size="13"
+    font-weight="700"
+    fill="#F0EFF1"
+    fill-opacity="0.9"
+  >
+    S
+  </text>
+</svg>
