@@ -26,7 +26,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="container footer-inner">
         <div>
-          <p className="footer-brand">Nebula Sur</p>
+          <p className="footer-brand">Nébula Sur</p>
           <p className="footer-note">{t('footer.note')}</p>
         </div>
 
@@ -42,7 +42,7 @@ export default function Footer() {
           </ul>
         </nav>
 
-        <p className="footer-rights">© {year} Nebula Sur. {t('footer.rights')}</p>
+        <p className="footer-rights">© {year} Nébula Sur. {t('footer.rights')}</p>
       </div>
     </footer>
   )

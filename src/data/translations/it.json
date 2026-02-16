@@ -9,20 +9,20 @@
     "selectLanguage": "Lingua"
   },
   "hero": {
-    "eyebrow": "Nebula Sur | partner sistemi AI",
+    "eyebrow": "Nébula Sur | partner di sistemi di IA",
     "title": "Ottimizzazione senza limiti per aziende ambiziose.",
-    "subtitle": "AI, automazione dei processi, digitalizzazione, formazione, consulenza e auditing orientati a risultati misurabili.",
+    "subtitle": "IA, automazione dei processi, digitalizzazione, formazione, consulenza e auditing orientati a risultati misurabili.",
     "description": "Guidiamo la trasformazione tecnologica della tua azienda con soluzioni di IA, automazione e digitalizzazione progettate per scalare in sicurezza, ottimizzare le operazioni e trasformare i dati in decisioni di business.",
     "primaryCta": "Servizi",
     "secondaryCta": "Contatto",
     "visualCaption": "La tua azienda, in un'altra dimensione.",
     "chips": [
-      "Strategia AI",
+      "Strategia IA",
       "Automazione dei Processi",
-      "Digital Operations",
+      "Operazioni digitali",
       "Formazione Team",
       "Consulenza",
-      "Audit Readiness"
+      "Preparazione all'audit"
     ]
   },
   "metrics": {
@@ -54,11 +54,11 @@
   "services": {
     "eyebrow": "Cosa facciamo",
     "title": "Servizi end-to-end per accelerare le operazioni",
-    "subtitle": "Nebula Sur integra strategia, engineering ed enablement in un unico livello di esecuzione.",
+    "subtitle": "Nébula Sur integra strategia, ingegneria e abilitazione in un unico livello di esecuzione.",
     "items": [
       {
-        "title": "Sistemi AI Applicati",
-        "description": "Progettazione e implementazione di assistenti AI, flussi di retrieval e strumenti di supporto alle decisioni.",
+        "title": "Sistemi IA applicati",
+        "description": "Progettazione e implementazione di assistenti IA, flussi di recupero e strumenti di supporto alle decisioni.",
         "outcome": "Risultato: decisioni più rapide con meno frizione operativa."
       },
       {
@@ -165,7 +165,7 @@
   "contact": {
     "eyebrow": "Prossimo step",
     "title": "Contatto",
-    "subtitle": "Condividi contesto e priorità. Il modulo apre un'email precompilata per Nebula Sur.",
+    "subtitle": "Condividi contesto e priorità. Il modulo apre un'email precompilata per Nébula Sur.",
     "detailLabels": {
       "email": "Email",
       "phone": "Telefono",
@@ -188,11 +188,11 @@
       "submit": "Apri bozza email",
       "success": "La tua bozza email è pronta. Completa l'invio dalla tua casella.",
       "error": "Controlla i campi obbligatori prima di inviare.",
-      "subjectPrefix": "Richiesta Nebula Sur -",
+      "subjectPrefix": "Richiesta Nébula Sur -",
       "services": [
         {
           "value": "ai-automation",
-          "label": "AI + automazione dei processi"
+          "label": "IA + automazione dei processi"
         },
         {
           "value": "digitalization",

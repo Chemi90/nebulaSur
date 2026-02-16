@@ -27,9 +27,9 @@ export default function Hero() {
           </ul>
         </div>
 
-        <aside className="hero-visual" aria-label="Nebula Sur brand panel">
-          <img src={logoMark} alt="Nebula Sur symbol" className="hero-logo" />
-          <h3 className="hero-visual-brand">Nebula Sur</h3>
+        <aside className="hero-visual" aria-label="Nébula Sur brand panel">
+          <img src={logoMark} alt="Nébula Sur symbol" className="hero-logo" />
+          <h3 className="hero-visual-brand">Nébula Sur</h3>
           <p>{t('hero.visualCaption')}</p>
         </aside>
       </div>

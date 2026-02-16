@@ -33,8 +33,8 @@ export default function Navbar() {
     <header className="site-header">
       <div className="container header-inner">
         <a className="brand" href="#home" onClick={(event) => handleAnchorClick(event, 'home')}>
-          <img src={logoMark} alt="Nebula Sur symbol" className="brand-logo" />
-          <span className="brand-name">Nebula Sur</span>
+          <img src={logoMark} alt="Nébula Sur symbol" className="brand-logo" />
+          <span className="brand-name">Nébula Sur</span>
         </a>
 
         <button

@@ -9,20 +9,20 @@
     "selectLanguage": "Idioma"
   },
   "hero": {
-    "eyebrow": "Nebula Sur | partner de sistemas AI",
+    "eyebrow": "Nébula Sur | socio de sistemas de IA",
     "title": "Optimización sin límites para empresas ambiciosas.",
-    "subtitle": "AI, automatización de procesos, digitalización, formación, consultoría y auditoría enfocadas en resultados medibles.",
+    "subtitle": "IA, automatización de procesos, digitalización, formación, consultoría y auditoría enfocadas en resultados medibles.",
     "description": "Impulsamos la transformación tecnológica de tu empresa con soluciones de IA, automatización y digitalización diseñadas para escalar con seguridad, optimizar operaciones y convertir datos en decisiones de negocio.",
     "primaryCta": "Servicios",
     "secondaryCta": "Contacto",
     "visualCaption": "Tu empresa, en otra dimensión.",
     "chips": [
-      "Estrategia AI",
+      "Estrategia de IA",
       "Automatización de Procesos",
-      "Digital Operations",
+      "Operaciones digitales",
       "Formación de Equipos",
       "Consultoría",
-      "Audit Readiness"
+      "Preparación para auditorías"
     ]
   },
   "metrics": {
@@ -54,11 +54,11 @@
   "services": {
     "eyebrow": "Qué hacemos",
     "title": "Servicios end-to-end para acelerar operaciones",
-    "subtitle": "Nebula Sur integra estrategia, engineering y enablement en una sola capa de ejecución.",
+    "subtitle": "Nébula Sur integra estrategia, ingeniería y capacitación en una sola capa de ejecución.",
     "items": [
       {
-        "title": "Sistemas AI Aplicados",
-        "description": "Diseño e implementación de asistentes AI, flujos de retrieval y herramientas de soporte a decisiones.",
+        "title": "Sistemas de IA aplicados",
+        "description": "Diseño e implementación de asistentes de IA, flujos de recuperación y herramientas de apoyo a la toma de decisiones.",
         "outcome": "Resultado: decisiones más rápidas con menos fricción operativa."
       },
       {
@@ -165,7 +165,7 @@
   "contact": {
     "eyebrow": "Siguiente paso",
     "title": "Contacto",
-    "subtitle": "Comparte contexto y prioridades. El formulario abre un email prellenado para Nebula Sur.",
+    "subtitle": "Comparte contexto y prioridades. El formulario abre un correo precompletado para Nébula Sur.",
     "detailLabels": {
       "email": "Email",
       "phone": "Teléfono",
@@ -185,14 +185,14 @@
       "message": "Contexto del proyecto",
       "messagePlaceholder": "Describe reto, tiempos y resultado esperado.",
       "consent": "Acepto ser contactado respecto a esta solicitud.",
-      "submit": "Abrir borrador email",
-      "success": "Tu borrador de email está listo. Completa el envío desde tu bandeja.",
+      "submit": "Abrir borrador de correo",
+      "success": "Tu borrador de correo está listo. Completa el envío desde tu bandeja.",
       "error": "Revisa los campos obligatorios antes de enviar.",
-      "subjectPrefix": "Consulta Nebula Sur -",
+      "subjectPrefix": "Consulta Nébula Sur -",
       "services": [
         {
           "value": "ai-automation",
-          "label": "AI + automatización de procesos"
+          "label": "IA + automatización de procesos"
         },
         {
           "value": "digitalization",

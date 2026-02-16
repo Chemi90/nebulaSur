@@ -9,7 +9,7 @@
     "selectLanguage": "Language"
   },
   "hero": {
-    "eyebrow": "Nebula Sur | AI systems partner",
+    "eyebrow": "Nébula Sur | AI systems partner",
     "title": "Optimization without limits for ambitious companies.",
     "subtitle": "AI, process automation, digitalization, training, consulting, and auditing focused on measurable results.",
     "description": "We drive your company's technological transformation with AI, automation, and digitalization solutions designed to scale securely, optimize operations, and turn data into business decisions.",
@@ -54,7 +54,7 @@
   "services": {
     "eyebrow": "What we do",
     "title": "End-to-end services to accelerate operations",
-    "subtitle": "Nebula Sur integrates strategy, engineering, and enablement into a single execution layer.",
+    "subtitle": "Nébula Sur integrates strategy, engineering, and enablement into a single execution layer.",
     "items": [
       {
         "title": "Applied AI Systems",
@@ -165,7 +165,7 @@
   "contact": {
     "eyebrow": "Next step",
     "title": "Contact",
-    "subtitle": "Share context and priorities. The form opens a pre-filled email for Nebula Sur.",
+    "subtitle": "Share context and priorities. The form opens a pre-filled email for Nébula Sur.",
     "detailLabels": {
       "email": "Email",
       "phone": "Phone",
@@ -188,7 +188,7 @@
       "submit": "Open email draft",
       "success": "Your email draft is ready. Complete sending from your inbox.",
       "error": "Review required fields before sending.",
-      "subjectPrefix": "Nebula Sur inquiry -",
+      "subjectPrefix": "Nébula Sur inquiry -",
       "services": [
         {
           "value": "ai-automation",

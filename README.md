@@ -1,4 +1,4 @@
-# Nebula Sur
+# Nébula Sur
 
 Frontend en React + Vite listo para despliegue estático en Netlify.
 
