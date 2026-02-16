@@ -168,11 +168,13 @@
     "subtitle": "Share context and priorities. The form opens a pre-filled email for Nebula Sur.",
     "detailLabels": {
       "email": "Email",
-      "phone": "Phone"
+      "phone": "Phone",
+      "location": "Location"
     },
     "details": {
       "email": "surnebula@gmail.com",
-      "phone": "+34 655 309 861"
+      "phone": "+34 655 309 861",
+      "location": "Spain"
     },
     "form": {
       "name": "Name",
@@ -216,7 +218,7 @@
     }
   },
   "footer": {
-    "note": "Placeholder landing. Replace these demo resources with real production material.",
+    "note": "AI, automation, and digitalization solutions to move your business into another dimension.",
     "rights": "All rights reserved."
   }
 }

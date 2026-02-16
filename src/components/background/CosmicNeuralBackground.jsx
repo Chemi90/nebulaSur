@@ -23,7 +23,7 @@ const NEBULA_TINTS = [
   [39, 25, 58]
 ]
 
-const PROGRAM_GLYPHS = ['<>', '{}', '01', 'AI', '//', 'fn()', '[]', '->']
+const PROGRAM_GLYPHS = ['<>', '{}', '01', 'AI', '//', 'fn()', '->']
 
 function clamp(value, min, max) {
   return Math.min(Math.max(value, min), max)

@@ -168,11 +168,13 @@
     "subtitle": "Comparte contexto y prioridades. El formulario abre un email prellenado para Nebula Sur.",
     "detailLabels": {
       "email": "Email",
-      "phone": "Teléfono"
+      "phone": "Teléfono",
+      "location": "Ubicación"
     },
     "details": {
       "email": "surnebula@gmail.com",
-      "phone": "+34 655 309 861"
+      "phone": "+34 655 309 861",
+      "location": "España"
     },
     "form": {
       "name": "Nombre",
@@ -216,7 +218,7 @@
     }
   },
   "footer": {
-    "note": "Landing placeholder. Reemplaza estos recursos demo con material real de producción.",
+    "note": "Soluciones de IA, automatización y digitalización para llevar tu empresa a otra dimensión.",
     "rights": "Todos los derechos reservados."
   }
 }

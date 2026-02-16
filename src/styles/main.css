@@ -1097,6 +1097,10 @@ img {
 }
 
 @media (max-width: 620px) {
+  .hero-section.section {
+    padding-top: calc(var(--header-height) + 5.4rem);
+  }
+
   .hero-title {
     font-size: clamp(1.85rem, 12vw, 2.45rem);
   }
