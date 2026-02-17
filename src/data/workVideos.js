@@ -15,7 +15,7 @@ const workVideos = [
   },
   {
     id: 'aiStoreChat',
-    embedUrl: 'https://www.youtube.com/shorts/p3657CGdngE',
+    embedUrl: 'https://www.youtube.com/embed/p3657CGdngE',
     titleKey: 'Projects.items.aiStoreChat.title',
     descriptionKey: 'Projects.items.aiStoreChat.description'
   }
