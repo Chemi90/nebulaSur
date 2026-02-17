@@ -15,7 +15,7 @@ const workVideos = [
   },
   {
     id: 'aiStoreChat',
-    embedUrl: 'https://www.youtube-nocookie.com/embed/6tsVH-FFPsM',
+    embedUrl: 'https://youtube.com/shorts/p3657CGdngE?feature=share',
     titleKey: 'Projects.items.aiStoreChat.title',
     descriptionKey: 'Projects.items.aiStoreChat.description'
   }

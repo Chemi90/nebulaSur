@@ -17,6 +17,7 @@ export default function Hero() {
 
           <div className="hero-actions">
             <a href="#services" className="btn btn-primary">{t('hero.primaryCta')}</a>
+            <a href="#projects" className="btn btn-ghost">{t('nav.Projects')}</a>
             <a href="#contact" className="btn btn-ghost">{t('hero.secondaryCta')}</a>
           </div>
 
