@@ -12,6 +12,7 @@ const INITIAL_STATE = {
 }
 
 const NETLIFY_FORM_NAME = 'contact'
+const NETLIFY_EMAIL_SUBJECT = 'Nueva solicitud desde Nebula Sur'
 
 function isValidEmail(value) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
@@ -100,6 +101,7 @@ export default function Contact() {
     const selectedServiceLabel = selectedService?.label || formData.service
     const payload = new URLSearchParams({
       'form-name': NETLIFY_FORM_NAME,
+      subject: NETLIFY_EMAIL_SUBJECT,
       name: formData.name.trim(),
       email: formData.email.trim(),
       phone: formData.phone.trim(),
@@ -158,6 +160,7 @@ export default function Contact() {
           noValidate
         >
           <input type="hidden" name="form-name" value={NETLIFY_FORM_NAME} />
+          <input type="hidden" name="subject" value={NETLIFY_EMAIL_SUBJECT} data-remove-prefix="" />
 
           <label>
             {t('contact.form.name')}
