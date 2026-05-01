@@ -174,7 +174,7 @@
   "contact": {
     "eyebrow": "Next step",
     "title": "Contact",
-    "subtitle": "Share what you need. The form opens a pre-filled email for Nébula Sur.",
+    "subtitle": "Share what you need. We will receive your request directly from this form.",
     "detailLabels": {
       "email": "Email",
       "calls": "Calls",
@@ -190,16 +190,17 @@
     "form": {
       "name": "Name",
       "email": "Business email",
+      "phone": "Phone (optional)",
       "company": "Company or individual",
       "service": "Priority service",
       "servicePlaceholder": "Select one",
       "message": "Request context",
       "messagePlaceholder": "Describe what you need, approximate location, timing, and expected outcome.",
       "consent": "I agree to be contacted regarding this request.",
-      "submit": "Open email draft",
-      "success": "Your email draft is ready. Complete sending from your inbox.",
-      "error": "Review required fields before sending.",
-      "subjectPrefix": "Nébula Sur inquiry -",
+      "submit": "Send request",
+      "sending": "Sending...",
+      "success": "Request sent. We will contact you as soon as possible.",
+      "error": "The form could not be sent. Please try again in a few minutes.",
       "services": [
         {
           "value": "ai-automation",
@@ -237,6 +238,7 @@
       "errors": {
         "name": "Enter at least 2 characters.",
         "email": "Enter a valid email.",
+        "phone": "Enter a valid phone number or leave the field empty.",
         "company": "Enter your company name or indicate that you are an individual.",
         "service": "Select a priority service.",
         "message": "Write at least 20 characters.",

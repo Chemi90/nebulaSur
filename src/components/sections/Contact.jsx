@@ -4,14 +4,26 @@ import { useLanguage } from '../../context/LanguageContext'
 const INITIAL_STATE = {
   name: '',
   email: '',
+  phone: '',
   company: '',
   service: '',
   message: '',
   consent: false
 }
 
+const NETLIFY_FORM_NAME = 'contact'
+
 function isValidEmail(value) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
+}
+
+function isValidPhone(value) {
+  if (!value.trim()) {
+    return true
+  }
+
+  const digits = value.replace(/\D/g, '')
+  return digits.length >= 6 && digits.length <= 15
 }
 
 export default function Contact() {
@@ -43,6 +55,10 @@ export default function Contact() {
       nextErrors.email = t('contact.form.errors.email')
     }
 
+    if (!isValidPhone(formData.phone)) {
+      nextErrors.phone = t('contact.form.errors.phone')
+    }
+
     if (formData.company.trim().length < 2) {
       nextErrors.company = t('contact.form.errors.company')
     }
@@ -72,31 +88,47 @@ export default function Contact() {
     }))
   }
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault()
+    setStatus('idle')
 
     if (!validate()) {
-      setStatus('error')
       return
     }
 
-    const recipient = t('contact.details.email')
     const selectedService = serviceOptions.find((option) => option.value === formData.service)
     const selectedServiceLabel = selectedService?.label || formData.service
+    const payload = new URLSearchParams({
+      'form-name': NETLIFY_FORM_NAME,
+      name: formData.name.trim(),
+      email: formData.email.trim(),
+      phone: formData.phone.trim(),
+      company: formData.company.trim(),
+      service: formData.service,
+      service_label: selectedServiceLabel,
+      message: formData.message.trim(),
+      consent: formData.consent ? 'yes' : 'no'
+    })
 
-    const subject = encodeURIComponent(`${t('contact.form.subjectPrefix')} ${selectedServiceLabel}`)
-    const body = encodeURIComponent([
-      `${t('contact.form.name')}: ${formData.name}`,
-      `${t('contact.form.email')}: ${formData.email}`,
-      `${t('contact.form.company')}: ${formData.company}`,
-      `${t('contact.form.service')}: ${selectedServiceLabel}`,
-      '',
-      `${t('contact.form.message')}:`,
-      formData.message
-    ].join('\n'))
+    try {
+      setStatus('submitting')
 
-    window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`
-    setStatus('success')
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: payload.toString()
+      })
+
+      if (!response.ok) {
+        throw new Error('Contact form submission failed')
+      }
+
+      setFormData(INITIAL_STATE)
+      setErrors({})
+      setStatus('success')
+    } catch {
+      setStatus('error')
+    }
   }
 
   return (
@@ -117,7 +149,16 @@ export default function Contact() {
           </div>
         </div>
 
-        <form className="contact-form" onSubmit={handleSubmit} noValidate>
+        <form
+          className="contact-form"
+          name={NETLIFY_FORM_NAME}
+          method="POST"
+          data-netlify="true"
+          onSubmit={handleSubmit}
+          noValidate
+        >
+          <input type="hidden" name="form-name" value={NETLIFY_FORM_NAME} />
+
           <label>
             {t('contact.form.name')}
             <input
@@ -140,6 +181,18 @@ export default function Contact() {
               required
             />
             {errors.email && <span className="form-error">{errors.email}</span>}
+          </label>
+
+          <label>
+            {t('contact.form.phone')}
+            <input
+              type="tel"
+              name="phone"
+              value={formData.phone}
+              onChange={handleChange}
+              autoComplete="tel"
+            />
+            {errors.phone && <span className="form-error">{errors.phone}</span>}
           </label>
 
           <label>
@@ -194,7 +247,9 @@ export default function Contact() {
           </label>
           {errors.consent && <span className="form-error">{errors.consent}</span>}
 
-          <button type="submit" className="btn btn-primary">{t('contact.form.submit')}</button>
+          <button type="submit" className="btn btn-primary" disabled={status === 'submitting'}>
+            {status === 'submitting' ? t('contact.form.sending') : t('contact.form.submit')}
+          </button>
 
           {status === 'success' && <p className="form-success">{t('contact.form.success')}</p>}
           {status === 'error' && <p className="form-error form-status">{t('contact.form.error')}</p>}

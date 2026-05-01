@@ -174,7 +174,7 @@
   "contact": {
     "eyebrow": "Prossimo step",
     "title": "Contatto",
-    "subtitle": "Condividi ciò di cui hai bisogno. Il modulo apre un’email precompilata per Nébula Sur.",
+    "subtitle": "Condividi ciò di cui hai bisogno. Riceveremo la tua richiesta direttamente da questo modulo.",
     "detailLabels": {
       "email": "Email",
       "calls": "Chiamate",
@@ -190,16 +190,17 @@
     "form": {
       "name": "Nome",
       "email": "Email aziendale",
+      "phone": "Telefono (opzionale)",
       "company": "Azienda o privato",
       "service": "Servizio prioritario",
       "servicePlaceholder": "Seleziona uno",
       "message": "Contesto della richiesta",
       "messagePlaceholder": "Descrivi cosa ti serve, zona approssimativa, tempi e risultato atteso.",
       "consent": "Accetto di essere contattato in merito a questa richiesta.",
-      "submit": "Apri bozza email",
-      "success": "La tua bozza email è pronta. Completa l’invio dalla tua casella.",
-      "error": "Controlla i campi obbligatori prima di inviare.",
-      "subjectPrefix": "Richiesta Nébula Sur -",
+      "submit": "Invia richiesta",
+      "sending": "Invio...",
+      "success": "Richiesta inviata. Ti contatteremo il prima possibile.",
+      "error": "Non è stato possibile inviare il modulo. Riprova tra qualche minuto.",
       "services": [
         {
           "value": "ai-automation",
@@ -237,6 +238,7 @@
       "errors": {
         "name": "Inserisci almeno 2 caratteri.",
         "email": "Inserisci un’email valida.",
+        "phone": "Inserisci un numero di telefono valido o lascia il campo vuoto.",
         "company": "Inserisci il nome della tua azienda o indica che sei un privato.",
         "service": "Seleziona un servizio prioritario.",
         "message": "Scrivi almeno 20 caratteri.",
