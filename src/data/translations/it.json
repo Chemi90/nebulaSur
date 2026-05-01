@@ -13,7 +13,7 @@
     "eyebrow": "Nébula Sur | multiservizi e tecnologia",
     "title": "Nébula Sur: multiservizi per aziende e privati.",
     "subtitle": "IA, automazione, digitalizzazione, elettricità, manutenzione informatica e pulizia professionale in un’unica rete di servizio.",
-    "description": "Uniamo soluzioni tecnologiche e servizi operativi per aziende, privati e comunità a Granada, Malaga e in Andalusia: sistemi digitali, elettricità, attrezzature informatiche, pulizia e supporto tecnico chiaro.",
+    "description": "Uniamo soluzioni tecnologiche e servizi operativi: i lavori in presenza come elettricità, pulizia o manutenzione fisica si svolgono in zona locale, mentre i servizi da remoto come IA, automazione, digitalizzazione, formazione e consulenza sono disponibili in tutta la Spagna.",
     "primaryCta": "Servizi",
     "secondaryCta": "Contatto",
     "visualCaption": "La tua azienda, in un'altra dimensione.",
@@ -61,47 +61,47 @@
     "items": [
       {
         "title": "Sistemi IA applicati",
-        "description": "Progettazione e implementazione di assistenti IA, flussi di recupero e strumenti di supporto alle decisioni.",
+        "description": "Progettazione e implementazione da remoto di assistenti IA, flussi di recupero e strumenti di supporto alle decisioni per clienti in tutta la Spagna.",
         "outcome": "Risultato: decisioni più rapide con meno frizione operativa."
       },
       {
         "title": "Automazione dei processi",
-        "description": "Automazione di attività ripetitive in vendite, finanza, supporto e operazioni interne con controlli chiari.",
+        "description": "Automazione online di attività ripetitive in vendite, finanza, supporto e operazioni interne con controlli chiari.",
         "outcome": "Risultato: minore carico manuale e meno colli di bottiglia."
       },
       {
         "title": "Digitalizzazione delle operazioni",
-        "description": "Migrazione da routine manuali a workflow digitali connessi, tracciabili e facili da mantenere.",
+        "description": "Migrazione da remoto da routine manuali a workflow digitali connessi, tracciabili e facili da mantenere.",
         "outcome": "Risultato: dati più puliti e maggiore coerenza operativa."
       },
       {
         "title": "Elettricità per aziende e privati",
-        "description": "Interventi elettrici, manutenzione, revisioni e supporto per attività, uffici, abitazioni e comunità.",
+        "description": "Interventi elettrici, manutenzione, revisioni e supporto locale in presenza per attività, uffici, abitazioni e comunità.",
         "outcome": "Risultato: impianti più sicuri, funzionali e pronti per l’uso quotidiano."
       },
       {
         "title": "Gestione e manutenzione informatica",
-        "description": "Supporto, revisione e manutenzione di apparecchiature informatiche, reti, postazioni e bisogni tecnologici ricorrenti.",
+        "description": "Supporto, revisione e manutenzione di apparecchiature informatiche, reti e postazioni, con servizio da remoto quando è possibile e intervento locale in presenza quando serve agire fisicamente.",
         "outcome": "Risultato: apparecchiature più stabili e meno interruzioni."
       },
       {
         "title": "Pulizia professionale",
-        "description": "Servizi di pulizia per privati, aziende, uffici, locali, comunità e spazi di lavoro.",
+        "description": "Servizi locali in presenza di pulizia per privati, aziende, uffici, locali, comunità e spazi di lavoro.",
         "outcome": "Risultato: spazi curati, operativi e pronti per clienti, team o famiglie."
       },
       {
         "title": "Formazione professionale",
-        "description": "Formazione pratica per adottare sistemi digitali, strumenti IA e routine di lavoro più efficienti.",
+        "description": "Formazione online per adottare sistemi digitali, strumenti IA e routine di lavoro più efficienti da qualsiasi zona della Spagna.",
         "outcome": "Risultato: maggiore adozione e capacità interna sostenibile."
       },
       {
         "title": "Consulenza strategica",
-        "description": "Supporto per prioritizzare miglioramenti, ordinare processi e ridurre rischi di esecuzione in progetti tecnici o operativi.",
+        "description": "Consulenza da remoto per prioritizzare miglioramenti, ordinare processi e ridurre rischi di esecuzione in progetti tecnici o operativi.",
         "outcome": "Risultato: focus più chiaro e migliore allocazione degli investimenti."
       },
       {
         "title": "Audit e preparazione operativa",
-        "description": "Valutazioni di processi, sistemi e routine di manutenzione per rafforzare tracciabilità, controllo e conformità.",
+        "description": "Valutazioni da remoto di processi, sistemi e routine di manutenzione per rafforzare tracciabilità, controllo e conformità.",
         "outcome": "Risultato: un’operazione più ordinata prima di revisioni o cambiamenti rilevanti."
       }
     ]
@@ -173,49 +173,49 @@
     ]
   },
   "areas": {
-    "eyebrow": "Granada e Malaga",
-    "title": "Servizi di IA, automazione, elettricità, informatica e pulizia a Granada e Malaga",
-    "subtitle": "Nébula Sur supporta aziende, autonomi, comunità e privati a Granada, Malaga e in altre zone dell'Andalusia con interventi in presenza, da remoto o misti secondo il tipo di servizio.",
+    "eyebrow": "Locale e remoto",
+    "title": "Servizi locali a Granada e Malaga, e servizi digitali da remoto in tutta la Spagna",
+    "subtitle": "I lavori che richiedono presenza fisica, come elettricità, pulizia o manutenzione di impianti e attrezzature, si svolgono in zona locale. Formazione, consulenza, IA, automazione, digitalizzazione e tutto ciò che è fattibile a distanza viene fornito da remoto per clienti in tutta la Spagna.",
     "searchesAria": "Ricerche frequenti di servizio",
     "searchesTitle": "Ricerche abituali che risolviamo",
     "queries": [
-      "automazione dei processi a Granada",
-      "consulenza IA per aziende a Malaga",
-      "manutenzione informatica a Granada",
-      "elettricista per aziende e privati a Malaga",
-      "pulizia professionale a Granada e Malaga",
-      "digitalizzazione di attività in Andalusia"
+      "automazione dei processi online in Spagna",
+      "consulenza IA per aziende in Spagna",
+      "formazione digitale da remoto per aziende",
+      "manutenzione informatica locale a Granada e Malaga",
+      "elettricista locale per aziende e privati",
+      "pulizia professionale locale a Granada e Malaga"
     ],
     "locations": [
       {
-        "name": "Granada",
-        "description": "Servizi tecnici e operativi per uffici, attività, comunità e privati che hanno bisogno di digitalizzazione, supporto informatico, elettricità o pulizia professionale.",
+        "name": "Servizi locali in presenza",
+        "description": "Elettricità, pulizia professionale, revisioni, manutenzione di impianti e supporto fisico alle attrezzature si coordinano a Granada, Malaga e zone vicine secondo disponibilità.",
         "services": [
-          "IA applicata e automazione dei processi",
-          "Manutenzione informatica e supporto tecnico",
+          "Elettricità per case, attività e comunità",
+          "Pulizia professionale per uffici, locali e spazi di lavoro",
           "Interventi elettrici e revisioni",
-          "Pulizia professionale per spazi di lavoro"
+          "Supporto in presenza per attrezzature e impianti"
         ]
       },
       {
-        "name": "Malaga",
-        "description": "Supporto per aziende e privati che vogliono ordinare processi, migliorare sistemi, risolvere esigenze tecniche e coordinare servizi essenziali.",
+        "name": "Servizi da remoto in tutta la Spagna",
+        "description": "Consulenza, formazione, IA applicata, automazione, digitalizzazione e supporto tecnico che non richiedono presenza fisica vengono svolti online per clienti in qualsiasi zona della Spagna.",
         "services": [
-          "Consulenza tecnologica e digitalizzazione",
-          "Automazione di vendite, supporto e operazioni",
-          "Elettricità e manutenzione ricorrente",
-          "Pulizia per uffici, locali e comunità"
+          "IA applicata e automazione dei processi",
+          "Consulenza tecnologica e audit operativi",
+          "Formazione e adozione di strumenti digitali",
+          "Digitalizzazione e supporto remoto"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Quali servizi offre Nébula Sur a Granada e Malaga?",
-        "answer": "Offriamo IA applicata, automazione dei processi, digitalizzazione, elettricità, manutenzione informatica, pulizia professionale, formazione e audit operativi per aziende, comunità e privati."
+        "question": "Quali servizi sono locali e quali si possono fare da remoto?",
+        "answer": "Elettricità, pulizia, manutenzione fisica e lavori che richiedono spostamento si svolgono in zona locale. IA, automazione, digitalizzazione, formazione, consulenza e audit operativi possono essere forniti da remoto per clienti in tutta la Spagna."
       },
       {
-        "question": "Lavorate in presenza o da remoto?",
-        "answer": "Combiniamo interventi in presenza quando il servizio lo richiede con supporto da remoto per diagnosi, consulenza, formazione, automazione e follow-up tecnico."
+        "question": "Lavorate con clienti fuori da Granada e Malaga?",
+        "answer": "Sì. Tutto ciò che può essere risolto online è disponibile in tutta la Spagna: diagnosi, consulenza, formazione, automazioni, documentazione, follow-up e supporto tecnico remoto."
       },
       {
         "question": "Seguite piccoli progetti o solo aziende?",

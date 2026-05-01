@@ -1,22 +1,22 @@
 # Nébula Sur
 
-Nébula Sur es una empresa de tecnología y multiservicios para Granada, Málaga (Malaga) y Andalucía (Andalucia).
+Nébula Sur es una empresa de tecnología y multiservicios con trabajos presenciales en zona local y servicios digitales a distancia para toda España.
 
 ## Servicios principales
 
-- IA aplicada y automatización de procesos para empresas.
-- Digitalización de operaciones, flujos internos y tareas repetitivas.
-- Electricidad para empresas, comunidades, viviendas y particulares.
-- Gestión, soporte y mantenimiento informático.
-- Limpieza profesional para oficinas, locales, comunidades y espacios de trabajo.
-- Formación, consultoría estratégica y auditoría operativa.
+- IA aplicada y automatización de procesos para empresas en toda España, a distancia.
+- Digitalización de operaciones, flujos internos y tareas repetitivas, a distancia.
+- Formación, consultoría estratégica y auditoría operativa online para toda España.
+- Electricidad para empresas, comunidades, viviendas y particulares en zona local.
+- Limpieza profesional para oficinas, locales, comunidades y espacios de trabajo en zona local.
+- Gestión, soporte y mantenimiento informático remoto cuando sea viable y presencial local cuando haga falta intervención física.
 
 ## Zonas
 
-- Granada
-- Málaga / Malaga
-- Andalucía / Andalucia
-- Atención presencial, remota o mixta según el servicio.
+- Trabajos físicos locales: Granada, Málaga / Malaga y zonas cercanas según disponibilidad.
+- Servicios a distancia: toda España.
+- Presencial para electricidad, limpieza, mantenimiento físico y soporte de instalaciones.
+- Remoto para IA, automatización, digitalización, formación, consultoría, auditoría y seguimiento técnico.
 
 ## Contacto
 

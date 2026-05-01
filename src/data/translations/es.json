@@ -13,7 +13,7 @@
     "eyebrow": "Nébula Sur | multiservicios y tecnología",
     "title": "Nébula Sur: multiservicios para empresas y particulares.",
     "subtitle": "IA, automatización, digitalización, electricidad, mantenimiento informático y limpieza profesional en una sola red de servicio.",
-    "description": "Unimos soluciones tecnológicas y servicios operativos para empresas, particulares y comunidades en Granada, Málaga y Andalucía: sistemas digitales, electricidad, equipos informáticos, limpieza y acompañamiento técnico con ejecución clara.",
+    "description": "Unimos soluciones tecnológicas y servicios operativos: trabajos presenciales como electricidad, limpieza o mantenimiento físico se atienden en zona local, y servicios a distancia como IA, automatización, digitalización, formación y consultoría se ofrecen en toda España.",
     "primaryCta": "Servicios",
     "secondaryCta": "Contacto",
     "visualCaption": "Tu empresa, en otra dimensión.",
@@ -61,47 +61,47 @@
     "items": [
       {
         "title": "Sistemas de IA aplicados",
-        "description": "Diseño e implementación de asistentes de IA, flujos de recuperación y herramientas de apoyo a la toma de decisiones.",
+        "description": "Diseño e implementación a distancia de asistentes de IA, flujos de recuperación y herramientas de apoyo a la toma de decisiones para clientes de toda España.",
         "outcome": "Resultado: decisiones más rápidas con menos fricción operativa."
       },
       {
         "title": "Automatización de procesos",
-        "description": "Automatización de tareas repetitivas en ventas, finanzas, soporte y operaciones internas con controles claros.",
+        "description": "Automatización online de tareas repetitivas en ventas, finanzas, soporte y operaciones internas con controles claros.",
         "outcome": "Resultado: menor carga manual y menos cuellos de botella."
       },
       {
         "title": "Digitalización de operaciones",
-        "description": "Migración de rutinas manuales hacia workflows digitales conectados, trazables y fáciles de mantener.",
+        "description": "Migración a distancia de rutinas manuales hacia workflows digitales conectados, trazables y fáciles de mantener.",
         "outcome": "Resultado: datos más limpios y mayor consistencia operativa."
       },
       {
         "title": "Electricidad para empresas y particulares",
-        "description": "Intervenciones eléctricas, mantenimiento, revisiones y soporte para negocios, oficinas, viviendas y comunidades.",
+        "description": "Intervenciones eléctricas, mantenimiento, revisiones y soporte presencial local para negocios, oficinas, viviendas y comunidades.",
         "outcome": "Resultado: instalaciones más seguras, funcionales y preparadas para el uso diario."
       },
       {
         "title": "Gestión y mantenimiento informático",
-        "description": "Soporte, revisión y mantenimiento de equipos informáticos, redes, puestos de trabajo y necesidades tecnológicas recurrentes.",
+        "description": "Soporte, revisión y mantenimiento de equipos informáticos, redes y puestos de trabajo, con atención remota cuando sea viable y presencial local cuando haga falta intervenir físicamente.",
         "outcome": "Resultado: equipos más estables y menos interrupciones en la actividad."
       },
       {
         "title": "Limpieza profesional",
-        "description": "Servicios de limpieza para particulares, empresas, oficinas, locales, comunidades y espacios de trabajo.",
+        "description": "Servicios presenciales locales de limpieza para particulares, empresas, oficinas, locales, comunidades y espacios de trabajo.",
         "outcome": "Resultado: espacios cuidados, operativos y listos para clientes, equipos o familias."
       },
       {
         "title": "Formación profesional",
-        "description": "Capacitación práctica para adoptar sistemas digitales, herramientas de IA y rutinas de trabajo más eficientes.",
+        "description": "Capacitación online para adoptar sistemas digitales, herramientas de IA y rutinas de trabajo más eficientes desde cualquier punto de España.",
         "outcome": "Resultado: mayor adopción y capacidad interna sostenible."
       },
       {
         "title": "Consultoría estratégica",
-        "description": "Acompañamiento para priorizar mejoras, ordenar procesos y reducir riesgos de ejecución en proyectos técnicos u operativos.",
+        "description": "Consultoría a distancia para priorizar mejoras, ordenar procesos y reducir riesgos de ejecución en proyectos técnicos u operativos.",
         "outcome": "Resultado: foco más claro y mejor asignación de inversión."
       },
       {
         "title": "Auditoría y preparación operativa",
-        "description": "Evaluaciones de procesos, sistemas y rutinas de mantenimiento para fortalecer trazabilidad, control y cumplimiento.",
+        "description": "Auditorías remotas de procesos, sistemas y rutinas de mantenimiento para fortalecer trazabilidad, control y cumplimiento.",
         "outcome": "Resultado: una operación más ordenada antes de revisiones o cambios relevantes."
       }
     ]
@@ -173,49 +173,49 @@
     ]
   },
   "areas": {
-    "eyebrow": "Granada y Málaga",
-    "title": "Servicios de IA, automatización, electricidad, informática y limpieza en Granada y Málaga",
-    "subtitle": "Nébula Sur atiende empresas, autónomos, comunidades y particulares en Granada, Málaga y otras zonas de Andalucía con soporte presencial, remoto o mixto según el tipo de intervención.",
+    "eyebrow": "Local y remoto",
+    "title": "Servicios locales en Granada y Málaga, y servicios digitales a distancia en toda España",
+    "subtitle": "Los trabajos que requieren presencia física, como electricidad, limpieza o mantenimiento de instalaciones y equipos, se atienden en zona local. La formación, consultoría, IA, automatización, digitalización y todo lo viable a distancia se presta de forma remota para clientes de toda España.",
     "searchesAria": "Búsquedas de servicio frecuentes",
     "searchesTitle": "Búsquedas habituales que resolvemos",
     "queries": [
-      "automatización de procesos en Granada",
-      "consultoría de IA para empresas en Málaga",
-      "mantenimiento informático en Granada",
-      "electricista para empresas y particulares en Málaga",
-      "limpieza profesional en Granada y Málaga",
-      "digitalización de negocios en Andalucía"
+      "automatización de procesos online en España",
+      "consultoría de IA para empresas en España",
+      "formación digital a distancia para empresas",
+      "mantenimiento informático local en Granada y Málaga",
+      "electricista local para empresas y particulares",
+      "limpieza profesional local en Granada y Málaga"
     ],
     "locations": [
       {
-        "name": "Granada",
-        "description": "Servicios técnicos y operativos para oficinas, negocios, comunidades y particulares que necesitan digitalización, soporte informático, electricidad o limpieza profesional.",
+        "name": "Servicios presenciales locales",
+        "description": "Electricidad, limpieza profesional, revisiones, mantenimiento de instalaciones y soporte físico de equipos se coordinan en Granada, Málaga y zonas cercanas según disponibilidad.",
         "services": [
-          "IA aplicada y automatización de procesos",
-          "Mantenimiento informático y soporte técnico",
+          "Electricidad para viviendas, negocios y comunidades",
+          "Limpieza profesional para oficinas, locales y espacios de trabajo",
           "Intervenciones eléctricas y revisiones",
-          "Limpieza profesional para espacios de trabajo"
+          "Soporte presencial de equipos e instalaciones"
         ]
       },
       {
-        "name": "Málaga",
-        "description": "Acompañamiento para empresas y particulares que quieren ordenar procesos, mejorar sistemas, resolver necesidades técnicas y coordinar servicios esenciales.",
+        "name": "Servicios a distancia en toda España",
+        "description": "La consultoría, formación, IA aplicada, automatización, digitalización y acompañamiento técnico que no requiera presencia física se realiza online para clientes de cualquier punto de España.",
         "services": [
-          "Consultoría tecnológica y digitalización",
-          "Automatización de ventas, soporte y operaciones",
-          "Electricidad y mantenimiento recurrente",
-          "Limpieza para oficinas, locales y comunidades"
+          "IA aplicada y automatización de procesos",
+          "Consultoría tecnológica y auditoría operativa",
+          "Formación y adopción de herramientas digitales",
+          "Digitalización y soporte remoto"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "¿Qué servicios ofrece Nébula Sur en Granada y Málaga?",
-        "answer": "Ofrecemos IA aplicada, automatización de procesos, digitalización, electricidad, mantenimiento informático, limpieza profesional, formación y auditoría operativa para empresas, comunidades y particulares."
+        "question": "¿Qué servicios son locales y cuáles se pueden hacer a distancia?",
+        "answer": "Electricidad, limpieza, mantenimiento físico y trabajos que requieren desplazamiento se atienden en zona local. IA, automatización, digitalización, formación, consultoría y auditoría operativa pueden realizarse a distancia para clientes de toda España."
       },
       {
-        "question": "¿Trabajáis de forma presencial o remota?",
-        "answer": "Combinamos atención presencial cuando el servicio lo requiere con soporte remoto para diagnóstico, consultoría, formación, automatización y seguimiento técnico."
+        "question": "¿Trabajáis con clientes fuera de Granada y Málaga?",
+        "answer": "Sí. Todo lo que pueda resolverse online se ofrece en toda España: diagnóstico, consultoría, formación, automatizaciones, documentación, seguimiento y soporte técnico remoto."
       },
       {
         "question": "¿Atendéis proyectos pequeños o solo empresas?",
