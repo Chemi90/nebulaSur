@@ -12,6 +12,7 @@ const INITIAL_STATE = {
 }
 
 const NETLIFY_FORM_NAME = 'contact'
+const NETLIFY_HONEYPOT_FIELD = 'bot-field'
 const NETLIFY_EMAIL_SUBJECT = 'Nueva solicitud desde Nebula Sur'
 
 function isValidEmail(value) {
@@ -101,6 +102,7 @@ export default function Contact() {
     const selectedServiceLabel = selectedService?.label || formData.service
     const payload = new URLSearchParams({
       'form-name': NETLIFY_FORM_NAME,
+      [NETLIFY_HONEYPOT_FIELD]: '',
       subject: NETLIFY_EMAIL_SUBJECT,
       name: formData.name.trim(),
       email: formData.email.trim(),
@@ -156,10 +158,17 @@ export default function Contact() {
           name={NETLIFY_FORM_NAME}
           method="POST"
           data-netlify="true"
+          netlify-honeypot={NETLIFY_HONEYPOT_FIELD}
           onSubmit={handleSubmit}
           noValidate
         >
           <input type="hidden" name="form-name" value={NETLIFY_FORM_NAME} />
+          <p className="form-honeypot" aria-hidden="true">
+            <label>
+              Leave this field empty
+              <input name={NETLIFY_HONEYPOT_FIELD} type="text" tabIndex={-1} autoComplete="off" />
+            </label>
+          </p>
           <input type="hidden" name="subject" value={NETLIFY_EMAIL_SUBJECT} data-remove-prefix="" />
 
           <label>
@@ -249,6 +258,7 @@ export default function Contact() {
             <span>{t('contact.form.consent')}</span>
           </label>
           {errors.consent && <span className="form-error">{errors.consent}</span>}
+          <p className="privacy-note">{t('contact.form.privacyNote')}</p>
 
           <button type="submit" className="btn btn-primary" disabled={status === 'submitting'}>
             {status === 'submitting' ? t('contact.form.sending') : t('contact.form.submit')}

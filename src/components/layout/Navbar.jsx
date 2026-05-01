@@ -16,6 +16,7 @@ export default function Navbar() {
     { id: 'home', label: t('nav.home') },
     { id: 'services', label: t('nav.services') },
     { id: 'projects', label: t('nav.Projects') },
+    { id: 'areas', label: t('nav.areas') },
     { id: 'contact', label: t('nav.contact') }
   ]), [t])
 

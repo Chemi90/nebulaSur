@@ -5,6 +5,7 @@
     "Projects": "Proyectos",
     "process": "Proceso",
     "standards": "Estándares",
+    "areas": "Zonas",
     "contact": "Contacto",
     "selectLanguage": "Idioma"
   },
@@ -12,7 +13,7 @@
     "eyebrow": "Nébula Sur | multiservicios y tecnología",
     "title": "Nébula Sur: multiservicios para empresas y particulares.",
     "subtitle": "IA, automatización, digitalización, electricidad, mantenimiento informático y limpieza profesional en una sola red de servicio.",
-    "description": "Unimos soluciones tecnológicas y servicios operativos para que empresas y particulares tengan un punto de confianza: sistemas digitales, electricidad, equipos informáticos, limpieza y acompañamiento técnico con ejecución clara.",
+    "description": "Unimos soluciones tecnológicas y servicios operativos para empresas, particulares y comunidades en Granada, Málaga y Andalucía: sistemas digitales, electricidad, equipos informáticos, limpieza y acompañamiento técnico con ejecución clara.",
     "primaryCta": "Servicios",
     "secondaryCta": "Contacto",
     "visualCaption": "Tu empresa, en otra dimensión.",
@@ -171,6 +172,57 @@
       }
     ]
   },
+  "areas": {
+    "eyebrow": "Granada y Málaga",
+    "title": "Servicios de IA, automatización, electricidad, informática y limpieza en Granada y Málaga",
+    "subtitle": "Nébula Sur atiende empresas, autónomos, comunidades y particulares en Granada, Málaga y otras zonas de Andalucía con soporte presencial, remoto o mixto según el tipo de intervención.",
+    "searchesAria": "Búsquedas de servicio frecuentes",
+    "searchesTitle": "Búsquedas habituales que resolvemos",
+    "queries": [
+      "automatización de procesos en Granada",
+      "consultoría de IA para empresas en Málaga",
+      "mantenimiento informático en Granada",
+      "electricista para empresas y particulares en Málaga",
+      "limpieza profesional en Granada y Málaga",
+      "digitalización de negocios en Andalucía"
+    ],
+    "locations": [
+      {
+        "name": "Granada",
+        "description": "Servicios técnicos y operativos para oficinas, negocios, comunidades y particulares que necesitan digitalización, soporte informático, electricidad o limpieza profesional.",
+        "services": [
+          "IA aplicada y automatización de procesos",
+          "Mantenimiento informático y soporte técnico",
+          "Intervenciones eléctricas y revisiones",
+          "Limpieza profesional para espacios de trabajo"
+        ]
+      },
+      {
+        "name": "Málaga",
+        "description": "Acompañamiento para empresas y particulares que quieren ordenar procesos, mejorar sistemas, resolver necesidades técnicas y coordinar servicios esenciales.",
+        "services": [
+          "Consultoría tecnológica y digitalización",
+          "Automatización de ventas, soporte y operaciones",
+          "Electricidad y mantenimiento recurrente",
+          "Limpieza para oficinas, locales y comunidades"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Qué servicios ofrece Nébula Sur en Granada y Málaga?",
+        "answer": "Ofrecemos IA aplicada, automatización de procesos, digitalización, electricidad, mantenimiento informático, limpieza profesional, formación y auditoría operativa para empresas, comunidades y particulares."
+      },
+      {
+        "question": "¿Trabajáis de forma presencial o remota?",
+        "answer": "Combinamos atención presencial cuando el servicio lo requiere con soporte remoto para diagnóstico, consultoría, formación, automatización y seguimiento técnico."
+      },
+      {
+        "question": "¿Atendéis proyectos pequeños o solo empresas?",
+        "answer": "Atendemos empresas, autónomos, comunidades y particulares. Primero delimitamos el alcance y después proponemos una intervención ajustada a la necesidad real."
+      }
+    ]
+  },
   "contact": {
     "eyebrow": "Siguiente paso",
     "title": "Contacto",
@@ -197,6 +249,7 @@
       "message": "Contexto de la solicitud",
       "messagePlaceholder": "Describe qué necesitas, ubicación aproximada, tiempos y resultado esperado.",
       "consent": "Acepto ser contactado respecto a esta solicitud.",
+      "privacyNote": "Usaremos los datos enviados solo para responder a esta solicitud de contacto.",
       "submit": "Enviar solicitud",
       "sending": "Enviando...",
       "success": "Solicitud enviada. Te contactaremos lo antes posible.",

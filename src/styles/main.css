@@ -463,6 +463,7 @@ img {
 .videos-section,
 .process-section,
 .standards-section,
+.areas-section,
 .exclusions-section,
 .contact-section {
   border-top: 1px solid rgba(27, 219, 239, 0.1);
@@ -853,6 +854,97 @@ img {
   line-height: 1.65;
 }
 
+.areas-layout {
+  display: grid;
+  grid-template-columns: 1.08fr 0.92fr;
+  gap: 1.4rem;
+  align-items: start;
+}
+
+.areas-grid {
+  margin-top: 1.6rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.area-card,
+.area-search-panel {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: rgba(14, 28, 50, 0.68);
+  backdrop-filter: blur(8px);
+}
+
+.area-card {
+  padding: 1.35rem;
+}
+
+.area-card h3,
+.area-search-panel h3 {
+  font-size: 1.04rem;
+}
+
+.area-card p,
+.area-faq-list p {
+  margin-top: 0.65rem;
+  color: var(--text-muted);
+  line-height: 1.68;
+}
+
+.area-card ul {
+  margin-top: 0.85rem;
+  padding-left: 1.1rem;
+  display: grid;
+  gap: 0.4rem;
+  color: #d6d9e8;
+  line-height: 1.5;
+}
+
+.area-card li::marker {
+  color: var(--primary);
+}
+
+.area-search-panel {
+  padding: 1.35rem;
+  position: sticky;
+  top: calc(var(--header-height) + 1.2rem);
+}
+
+.area-query-list {
+  margin-top: 1rem;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.area-query-list li {
+  padding: 0.42rem 0.68rem;
+  border-radius: 999px;
+  border: 1px solid rgba(222, 45, 231, 0.28);
+  background: rgba(34, 18, 55, 0.62);
+  color: #ded6e8;
+  font-size: 0.8rem;
+}
+
+.area-faq-list {
+  margin-top: 1.1rem;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.area-faq-list details {
+  border-top: 1px solid rgba(27, 219, 239, 0.16);
+  padding-top: 0.65rem;
+}
+
+.area-faq-list summary {
+  cursor: pointer;
+  color: var(--text);
+  font-weight: 700;
+}
+
 .exclusions-grid {
   margin-top: 2rem;
   display: grid;
@@ -924,6 +1016,14 @@ img {
   gap: 0.85rem;
 }
 
+.form-honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .contact-form label {
   display: grid;
   gap: 0.42rem;
@@ -969,6 +1069,12 @@ img {
 }
 
 .consent-row span {
+  line-height: 1.45;
+}
+
+.privacy-note {
+  color: var(--text-muted);
+  font-size: 0.78rem;
   line-height: 1.45;
 }
 
@@ -1089,8 +1195,13 @@ img {
 
   .contact-grid,
   .footer-inner,
+  .areas-layout,
   .standards-grid {
     grid-template-columns: 1fr;
+  }
+
+  .area-search-panel {
+    position: static;
   }
 
   .footer-rights {
@@ -1124,6 +1235,7 @@ img {
   .services-grid,
   .process-grid,
   .standards-grid,
+  .areas-grid,
   .exclusions-grid {
     grid-template-columns: 1fr;
   }

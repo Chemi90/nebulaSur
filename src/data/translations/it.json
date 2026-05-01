@@ -5,6 +5,7 @@
     "Projects": "Progetti",
     "process": "Processo",
     "standards": "Standard",
+    "areas": "Zone",
     "contact": "Contatto",
     "selectLanguage": "Lingua"
   },
@@ -12,7 +13,7 @@
     "eyebrow": "Nébula Sur | multiservizi e tecnologia",
     "title": "Nébula Sur: multiservizi per aziende e privati.",
     "subtitle": "IA, automazione, digitalizzazione, elettricità, manutenzione informatica e pulizia professionale in un’unica rete di servizio.",
-    "description": "Uniamo soluzioni tecnologiche e servizi operativi per offrire ad aziende e privati un unico punto di fiducia: sistemi digitali, elettricità, attrezzature informatiche, pulizia e supporto tecnico.",
+    "description": "Uniamo soluzioni tecnologiche e servizi operativi per aziende, privati e comunità a Granada, Malaga e in Andalusia: sistemi digitali, elettricità, attrezzature informatiche, pulizia e supporto tecnico chiaro.",
     "primaryCta": "Servizi",
     "secondaryCta": "Contatto",
     "visualCaption": "La tua azienda, in un'altra dimensione.",
@@ -171,6 +172,57 @@
       }
     ]
   },
+  "areas": {
+    "eyebrow": "Granada e Malaga",
+    "title": "Servizi di IA, automazione, elettricità, informatica e pulizia a Granada e Malaga",
+    "subtitle": "Nébula Sur supporta aziende, autonomi, comunità e privati a Granada, Malaga e in altre zone dell'Andalusia con interventi in presenza, da remoto o misti secondo il tipo di servizio.",
+    "searchesAria": "Ricerche frequenti di servizio",
+    "searchesTitle": "Ricerche abituali che risolviamo",
+    "queries": [
+      "automazione dei processi a Granada",
+      "consulenza IA per aziende a Malaga",
+      "manutenzione informatica a Granada",
+      "elettricista per aziende e privati a Malaga",
+      "pulizia professionale a Granada e Malaga",
+      "digitalizzazione di attività in Andalusia"
+    ],
+    "locations": [
+      {
+        "name": "Granada",
+        "description": "Servizi tecnici e operativi per uffici, attività, comunità e privati che hanno bisogno di digitalizzazione, supporto informatico, elettricità o pulizia professionale.",
+        "services": [
+          "IA applicata e automazione dei processi",
+          "Manutenzione informatica e supporto tecnico",
+          "Interventi elettrici e revisioni",
+          "Pulizia professionale per spazi di lavoro"
+        ]
+      },
+      {
+        "name": "Malaga",
+        "description": "Supporto per aziende e privati che vogliono ordinare processi, migliorare sistemi, risolvere esigenze tecniche e coordinare servizi essenziali.",
+        "services": [
+          "Consulenza tecnologica e digitalizzazione",
+          "Automazione di vendite, supporto e operazioni",
+          "Elettricità e manutenzione ricorrente",
+          "Pulizia per uffici, locali e comunità"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quali servizi offre Nébula Sur a Granada e Malaga?",
+        "answer": "Offriamo IA applicata, automazione dei processi, digitalizzazione, elettricità, manutenzione informatica, pulizia professionale, formazione e audit operativi per aziende, comunità e privati."
+      },
+      {
+        "question": "Lavorate in presenza o da remoto?",
+        "answer": "Combiniamo interventi in presenza quando il servizio lo richiede con supporto da remoto per diagnosi, consulenza, formazione, automazione e follow-up tecnico."
+      },
+      {
+        "question": "Seguite piccoli progetti o solo aziende?",
+        "answer": "Lavoriamo con aziende, autonomi, comunità e privati. Prima definiamo l'ambito e poi proponiamo un intervento adatto alla necessità reale."
+      }
+    ]
+  },
   "contact": {
     "eyebrow": "Prossimo step",
     "title": "Contatto",
@@ -197,6 +249,7 @@
       "message": "Contesto della richiesta",
       "messagePlaceholder": "Descrivi cosa ti serve, zona approssimativa, tempi e risultato atteso.",
       "consent": "Accetto di essere contattato in merito a questa richiesta.",
+      "privacyNote": "Useremo i dati inviati solo per rispondere a questa richiesta di contatto.",
       "submit": "Invia richiesta",
       "sending": "Invio...",
       "success": "Richiesta inviata. Ti contatteremo il prima possibile.",

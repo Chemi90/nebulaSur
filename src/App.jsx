@@ -8,6 +8,7 @@ import Services from './components/sections/Services'
 import WorkVideos from './components/sections/WorkVideos'
 import Process from './components/sections/Process'
 import Standards from './components/sections/Standards'
+import LocalPresence from './components/sections/LocalPresence'
 import Contact from './components/sections/Contact'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <WorkVideos />
           <Process />
           <Standards />
+          <LocalPresence />
           <Contact />
         </main>
 
