@@ -27,7 +27,8 @@ export default function Contact() {
 
   const contactDetails = useMemo(() => ([
     { label: t('contact.detailLabels.email'), value: t('contact.details.email') },
-    { label: t('contact.detailLabels.phone'), value: t('contact.details.phone') },
+    { label: t('contact.detailLabels.calls'), value: t('contact.details.callPhone') },
+    { label: t('contact.detailLabels.whatsapp'), value: t('contact.details.whatsappPhones') },
     { label: t('contact.detailLabels.location'), value: t('contact.details.location') }
   ]), [t])
 

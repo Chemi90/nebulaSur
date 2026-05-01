@@ -9,52 +9,54 @@
     "selectLanguage": "Lingua"
   },
   "hero": {
-    "eyebrow": "Nébula Sur | partner di sistemi di IA",
-    "title": "Ottimizzazione senza limiti per aziende ambiziose.",
-    "subtitle": "IA, automazione dei processi, digitalizzazione, formazione, consulenza e auditing orientati a risultati misurabili.",
-    "description": "Guidiamo la trasformazione tecnologica della tua azienda con soluzioni di IA, automazione e digitalizzazione progettate per scalare in sicurezza, ottimizzare le operazioni e trasformare i dati in decisioni di business.",
+    "eyebrow": "Nébula Sur | multiservizi e tecnologia",
+    "title": "Nébula Sur: multiservizi per aziende e privati.",
+    "subtitle": "IA, automazione, digitalizzazione, elettricità, manutenzione informatica e pulizia professionale in un’unica rete di servizio.",
+    "description": "Uniamo soluzioni tecnologiche e servizi operativi per offrire ad aziende e privati un unico punto di fiducia: sistemi digitali, elettricità, attrezzature informatiche, pulizia e supporto tecnico.",
     "primaryCta": "Servizi",
     "secondaryCta": "Contatto",
     "visualCaption": "La tua azienda, in un'altra dimensione.",
     "chips": [
-      "Strategia IA",
-      "Automazione dei Processi",
-      "Operazioni digitali",
-      "Formazione Team",
+      "IA e automazione",
+      "Digitalizzazione",
+      "Elettricità",
+      "Manutenzione IT",
+      "Pulizia professionale",
       "Consulenza",
-      "Preparazione all'audit"
+      "Formazione",
+      "Audit operativo"
     ]
   },
   "metrics": {
     "eyebrow": "Segnali di fiducia",
-    "title": "Progettato per velocità di esecuzione e governance",
+    "title": "Pronti a risolvere esigenze digitali e operative",
     "items": [
       {
         "value": "48h",
-        "label": "Finestra di diagnosi",
-        "description": "Mappa iniziale delle operazioni e priorità dopo il kickoff."
+        "label": "Diagnosi iniziale",
+        "description": "Prima lettura di esigenze, priorità e ambito di intervento."
       },
       {
-        "value": "6",
+        "value": "9+",
         "label": "Linee di servizio",
-        "description": "Un framework integrato per AI, automazione e trasformazione digitale."
+        "description": "Tecnologia, elettricità, informatica, pulizia, consulenza, formazione e supporto operativo."
       },
       {
         "value": "360°",
-        "label": "Visibilità dei processi",
-        "description": "Mappatura trasversale per individuare blocchi, sprechi e opportunità."
+        "label": "Copertura integrata",
+        "description": "Seguiamo processi digitali, impianti, apparecchiature, spazi e routine di manutenzione."
       },
       {
-        "value": "ROI",
-        "label": "Delivery orientata all'impatto",
-        "description": "Ogni iniziativa collega decisioni tecniche a indicatori di business."
+        "value": "B2B/B2C",
+        "label": "Aziende e privati",
+        "description": "Servizi adattati a uffici, attività, case, comunità e team professionali."
       }
     ]
   },
   "services": {
     "eyebrow": "Cosa facciamo",
-    "title": "Servizi end-to-end per accelerare le operazioni",
-    "subtitle": "Nébula Sur integra strategia, ingegneria e abilitazione in un unico livello di esecuzione.",
+    "title": "Tecnologia e multiservizi in un unico team",
+    "subtitle": "Nébula Sur combina trasformazione digitale e servizi essenziali per aziende, professionisti e privati.",
     "items": [
       {
         "title": "Sistemi IA applicati",
@@ -62,35 +64,50 @@
         "outcome": "Risultato: decisioni più rapide con meno frizione operativa."
       },
       {
-        "title": "Automazione dei Processi",
-        "description": "Automazione dei flussi ripetitivi in vendite, finanza, supporto e operazioni interne con controlli chiari.",
+        "title": "Automazione dei processi",
+        "description": "Automazione di attività ripetitive in vendite, finanza, supporto e operazioni interne con controlli chiari.",
         "outcome": "Risultato: minore carico manuale e meno colli di bottiglia."
       },
       {
-        "title": "Programmi di Digitalizzazione",
-        "description": "Migrazione da routine manuali frammentate a workflow digitali connessi con dati coerenti.",
+        "title": "Digitalizzazione delle operazioni",
+        "description": "Migrazione da routine manuali a workflow digitali connessi, tracciabili e facili da mantenere.",
         "outcome": "Risultato: dati più puliti e maggiore coerenza operativa."
       },
       {
-        "title": "Formazione Professionale",
-        "description": "Formazione pratica per adottare sistemi digitali, strumenti AI e disciplina di processo.",
+        "title": "Elettricità per aziende e privati",
+        "description": "Interventi elettrici, manutenzione, revisioni e supporto per attività, uffici, abitazioni e comunità.",
+        "outcome": "Risultato: impianti più sicuri, funzionali e pronti per l’uso quotidiano."
+      },
+      {
+        "title": "Gestione e manutenzione informatica",
+        "description": "Supporto, revisione e manutenzione di apparecchiature informatiche, reti, postazioni e bisogni tecnologici ricorrenti.",
+        "outcome": "Risultato: apparecchiature più stabili e meno interruzioni."
+      },
+      {
+        "title": "Pulizia professionale",
+        "description": "Servizi di pulizia per privati, aziende, uffici, locali, comunità e spazi di lavoro.",
+        "outcome": "Risultato: spazi curati, operativi e pronti per clienti, team o famiglie."
+      },
+      {
+        "title": "Formazione professionale",
+        "description": "Formazione pratica per adottare sistemi digitali, strumenti IA e routine di lavoro più efficienti.",
         "outcome": "Risultato: maggiore adozione e capacità interna sostenibile."
       },
       {
-        "title": "Consulenza Strategica",
-        "description": "Supporto su roadmap di trasformazione, prioritizzazione e riduzione dei rischi di esecuzione.",
+        "title": "Consulenza strategica",
+        "description": "Supporto per prioritizzare miglioramenti, ordinare processi e ridurre rischi di esecuzione in progetti tecnici o operativi.",
         "outcome": "Risultato: focus più chiaro e migliore allocazione degli investimenti."
       },
       {
-        "title": "Audit e Compliance Readiness",
-        "description": "Valutazioni operative e tecniche per rafforzare tracciabilità, governance e preparazione all'audit.",
-        "outcome": "Risultato: postura di controllo più solida prima delle verifiche formali."
+        "title": "Audit e preparazione operativa",
+        "description": "Valutazioni di processi, sistemi e routine di manutenzione per rafforzare tracciabilità, controllo e conformità.",
+        "outcome": "Risultato: un’operazione più ordinata prima di revisioni o cambiamenti rilevanti."
       }
     ]
   },
   "Projects": {
-    "eyebrow": "Lavori selezionati",
-    "title": "Progetti",
+    "eyebrow": "Lavoro in evidenza",
+    "title": "Progetto in evidenza",
     "openDetails": "Clicca per aprire i dettagli del video",
     "closeModalAria": "Chiudi i dettagli del video",
     "iframeTitleSuffix": "Anteprima",
@@ -106,87 +123,81 @@
           "📈 Storico e metriche: evoluzione di peso, abitudini e performance",
           "📱 Formato PWA: funziona come app installabile dal browser"
         ]
-      },
-      "aiAccountingPortal": {
-        "title": "Portale Contabile IA + ERP",
-        "description": "Questo portale automatizza la contabilità con l'IA per estrarre i dati dalle fatture e validarli direttamente con un sistema ERP. Facilita il controllo in tempo reale di fornitori e documenti, garantendo l'integrità delle informazioni tramite processi di sincronizzazione massiva. Consente la supervisione umana e la correzione manuale prima dell'esportazione finale dei dati nel sistema gestionale."
-      },
-      "aiStoreChat": {
-        "title": "Chat IA Integrata nello Store",
-        "description": "È una chat IA integrata nello store che consente di automatizzare gli ordini a partire da prompt in linguaggio naturale e agisce anche come motore di ricerca prodotti. Interpreta l'intenzione dell'utente e genera risposte interattive, inclusi elenchi e selezione prodotti. Supporta l'interazione testuale e l'elaborazione di file TXT e CSV per strutturare automaticamente gli ordini."
       }
     },
     "highlightsAria": "Punti chiave del progetto"
   },
   "process": {
     "eyebrow": "Come eseguiamo",
-    "title": "Modello pratico: dalla diagnosi al risultato",
+    "title": "Modello pratico: dalla diagnosi all’intervento",
     "steps": [
       {
-        "title": "Audit e mappatura",
-        "description": "Mappiamo sistemi, vincoli e obiettivi per definire una base reale di trasformazione."
+        "title": "Diagnosi e ambito",
+        "description": "Raccogliamo esigenze, vincoli e obiettivi per definire quale servizio è adatto e quale priorità ha."
       },
       {
-        "title": "Roadmap e architettura",
-        "description": "Prioritizziamo iniziative, progettiamo l'architettura e allineiamo la sequenza alla tua realtà operativa."
+        "title": "Proposta e pianificazione",
+        "description": "Ordiniamo attività, tempi, materiali o risorse necessarie e allineiamo le aspettative prima dell’esecuzione."
       },
       {
-        "title": "Implementazione e adozione",
-        "description": "Rilasciamo in incrementi controllati e formiamo stakeholder chiave per un'adozione stabile."
+        "title": "Esecuzione coordinata",
+        "description": "Interveniamo con una sequenza chiara, comunicazione diretta e controllo dell’avanzamento."
       },
       {
-        "title": "Ottimizzazione continua",
-        "description": "Monitoriamo i risultati, correggiamo i punti deboli e trasferiamo playbook riutilizzabili al team interno."
+        "title": "Follow-up e miglioramento",
+        "description": "Rivediamo il risultato, sistemiamo i punti aperti e lasciamo raccomandazioni per manutenzione o prossimi passi."
       }
     ]
   },
   "standards": {
     "eyebrow": "Standard",
-    "title": "Principi di qualità in ogni progetto",
+    "title": "Principi di qualità in ogni servizio",
     "items": [
       {
-        "title": "Security-first",
-        "description": "Controlli di accesso, limiti dei dati e configurazioni sicure fin dall'inizio."
+        "title": "Sicurezza e responsabilità",
+        "description": "Lavoriamo con attenzione a rischi, accessi, impianti, dati e condizioni reali di ogni ambiente."
       },
       {
-        "title": "Delivery osservabile",
-        "description": "Ogni fase è documentata con checkpoint espliciti e avanzamento visibile al business."
+        "title": "Delivery tracciabile",
+        "description": "Ogni intervento parte da un ambito chiaro, follow-up e comunicazione visibile per il cliente."
       },
       {
-        "title": "Sistemi modulari",
-        "description": "Le soluzioni sono costruite per evolvere senza ricostruire tutto a ogni cambiamento."
+        "title": "Soluzioni mantenibili",
+        "description": "Diamo priorità a miglioramenti che possano essere gestiti, rivisti e ampliati senza ricostruire tutto da zero."
       },
       {
-        "title": "Trasferimento di conoscenza",
-        "description": "I team interni ricevono guida pratica per operare in autonomia dopo il rollout."
+        "title": "Supporto vicino",
+        "description": "Offriamo orientamento pratico perché aziende e privati comprendano il risultato e le cure successive."
       }
     ]
   },
   "contact": {
     "eyebrow": "Prossimo step",
     "title": "Contatto",
-    "subtitle": "Condividi contesto e priorità. Il modulo apre un'email precompilata per Nébula Sur.",
+    "subtitle": "Condividi ciò di cui hai bisogno. Il modulo apre un’email precompilata per Nébula Sur.",
     "detailLabels": {
       "email": "Email",
-      "phone": "Telefono",
+      "calls": "Chiamate",
+      "whatsapp": "WhatsApp",
       "location": "Sede"
     },
     "details": {
-      "email": "surnebula@gmail.com",
-      "phone": "+34 655 309 861",
+      "email": "atencionalcliente@nebulasur.es",
+      "callPhone": "+34 655 309 861",
+      "whatsappPhones": "+34 655 309 861 / +34 603 40 40 75",
       "location": "Spagna"
     },
     "form": {
       "name": "Nome",
       "email": "Email aziendale",
-      "company": "Azienda",
+      "company": "Azienda o privato",
       "service": "Servizio prioritario",
       "servicePlaceholder": "Seleziona uno",
-      "message": "Contesto del progetto",
-      "messagePlaceholder": "Descrivi sfida, tempistiche e risultato atteso.",
+      "message": "Contesto della richiesta",
+      "messagePlaceholder": "Descrivi cosa ti serve, zona approssimativa, tempi e risultato atteso.",
       "consent": "Accetto di essere contattato in merito a questa richiesta.",
       "submit": "Apri bozza email",
-      "success": "La tua bozza email è pronta. Completa l'invio dalla tua casella.",
+      "success": "La tua bozza email è pronta. Completa l’invio dalla tua casella.",
       "error": "Controlla i campi obbligatori prima di inviare.",
       "subjectPrefix": "Richiesta Nébula Sur -",
       "services": [
@@ -196,7 +207,19 @@
         },
         {
           "value": "digitalization",
-          "label": "Programma di digitalizzazione"
+          "label": "Digitalizzazione delle operazioni"
+        },
+        {
+          "value": "electricity",
+          "label": "Elettricità"
+        },
+        {
+          "value": "it-maintenance",
+          "label": "Gestione e manutenzione informatica"
+        },
+        {
+          "value": "cleaning",
+          "label": "Pulizia professionale"
         },
         {
           "value": "training",
@@ -204,13 +227,17 @@
         },
         {
           "value": "consulting-audit",
-          "label": "Consulenza e auditing"
+          "label": "Consulenza e audit"
+        },
+        {
+          "value": "multi-service",
+          "label": "Richiesta multiservizio"
         }
       ],
       "errors": {
         "name": "Inserisci almeno 2 caratteri.",
-        "email": "Inserisci un'email valida.",
-        "company": "Inserisci il nome della tua azienda.",
+        "email": "Inserisci un’email valida.",
+        "company": "Inserisci il nome della tua azienda o indica che sei un privato.",
         "service": "Seleziona un servizio prioritario.",
         "message": "Scrivi almeno 20 caratteri.",
         "consent": "Il consenso è obbligatorio per continuare."
@@ -218,7 +245,7 @@
     }
   },
   "footer": {
-    "note": "Soluzioni di IA, automazione e digitalizzazione per portare la tua impresa in un'altra dimensione.",
+    "note": "Tecnologia, elettricità, manutenzione informatica e pulizia professionale per aziende e privati.",
     "rights": "Tutti i diritti riservati."
   }
 }

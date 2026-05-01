@@ -6,18 +6,19 @@ import it from '../data/translations/it.json'
 import es from '../data/translations/es.json'
 
 const translations = { en, it, es }
-const DEFAULT_LANGUAGE = 'en'
+const DEFAULT_LANGUAGE = 'es'
+const LANGUAGE_STORAGE_KEY = 'nebula-language-v2'
 
 const LanguageContext = createContext()
 
 export function LanguageProvider({ children }) {
   const [language, setLanguage] = useState(() => {
-    const saved = localStorage.getItem('nebula-language')
-    return saved || DEFAULT_LANGUAGE
+    const saved = localStorage.getItem(LANGUAGE_STORAGE_KEY)
+    return translations[saved] ? saved : DEFAULT_LANGUAGE
   })
 
   useEffect(() => {
-    localStorage.setItem('nebula-language', language)
+    localStorage.setItem(LANGUAGE_STORAGE_KEY, language)
   }, [language])
 
   const resolveKey = useCallback((source, key) => {

@@ -9,88 +9,105 @@
     "selectLanguage": "Language"
   },
   "hero": {
-    "eyebrow": "Nébula Sur | AI systems partner",
-    "title": "Optimization without limits for ambitious companies.",
-    "subtitle": "AI, process automation, digitalization, training, consulting, and auditing focused on measurable results.",
-    "description": "We drive your company's technological transformation with AI, automation, and digitalization solutions designed to scale securely, optimize operations, and turn data into business decisions.",
+    "eyebrow": "Nébula Sur | multiservices and technology",
+    "title": "Nébula Sur: multiservices for companies and individuals.",
+    "subtitle": "AI, automation, digitalization, electrical work, IT maintenance, and professional cleaning through one service network.",
+    "description": "We combine technology solutions and operational services so companies and individuals have one trusted point of contact for digital systems, electrical work, IT equipment, cleaning, and technical support.",
     "primaryCta": "Services",
     "secondaryCta": "Contact",
     "visualCaption": "Your company, in another dimension.",
     "chips": [
-      "AI Strategy",
-      "Process Automation",
-      "Digital Operations",
-      "Team Training",
+      "AI and automation",
+      "Digitalization",
+      "Electrical work",
+      "IT maintenance",
+      "Professional cleaning",
       "Consulting",
-      "Audit Readiness"
+      "Training",
+      "Operational auditing"
     ]
   },
   "metrics": {
     "eyebrow": "Trust signals",
-    "title": "Designed for execution speed and governance",
+    "title": "Ready to solve digital and operational needs",
     "items": [
       {
         "value": "48h",
-        "label": "Diagnostic window",
-        "description": "Initial operations map and priorities after kickoff."
+        "label": "Initial diagnosis",
+        "description": "First read of needs, priorities, and intervention scope."
       },
       {
-        "value": "6",
+        "value": "9+",
         "label": "Service lines",
-        "description": "An integrated framework for AI, automation, and digital transformation."
+        "description": "Technology, electrical work, IT, cleaning, consulting, training, and operational support."
       },
       {
         "value": "360°",
-        "label": "Process visibility",
-        "description": "Cross-functional mapping to detect blockers, waste, and opportunities."
+        "label": "Integrated coverage",
+        "description": "We cover digital processes, installations, equipment, spaces, and maintenance routines."
       },
       {
-        "value": "ROI",
-        "label": "Impact-oriented delivery",
-        "description": "Each initiative connects technical decisions with business indicators."
+        "value": "B2B/B2C",
+        "label": "Companies and individuals",
+        "description": "Services adapted to offices, businesses, homes, communities, and professional teams."
       }
     ]
   },
   "services": {
     "eyebrow": "What we do",
-    "title": "End-to-end services to accelerate operations",
-    "subtitle": "Nébula Sur integrates strategy, engineering, and enablement into a single execution layer.",
+    "title": "Technology and multiservices in one team",
+    "subtitle": "Nébula Sur combines digital transformation with essential services for companies, professionals, and individuals.",
     "items": [
       {
-        "title": "Applied AI Systems",
+        "title": "Applied AI systems",
         "description": "Design and implementation of AI assistants, retrieval flows, and decision-support tools.",
         "outcome": "Outcome: faster decisions with less operational friction."
       },
       {
-        "title": "Process Automation",
-        "description": "Automation of repetitive flows in sales, finance, support, and internal operations with clear controls.",
+        "title": "Process automation",
+        "description": "Automation of repetitive tasks in sales, finance, support, and internal operations with clear controls.",
         "outcome": "Outcome: lower manual workload and fewer bottlenecks."
       },
       {
-        "title": "Digitalization Programs",
-        "description": "Migration from fragmented manual routines to connected digital workflows with consistent data.",
+        "title": "Operations digitalization",
+        "description": "Migration from manual routines to connected, traceable, and maintainable digital workflows.",
         "outcome": "Outcome: cleaner data and greater operational consistency."
       },
       {
-        "title": "Professional Training",
-        "description": "Practical training to adopt digital systems, AI tools, and process discipline.",
+        "title": "Electrical work for companies and individuals",
+        "description": "Electrical interventions, maintenance, inspections, and support for businesses, offices, homes, and communities.",
+        "outcome": "Outcome: safer, more functional installations ready for daily use."
+      },
+      {
+        "title": "IT management and maintenance",
+        "description": "Support, inspection, and maintenance for IT equipment, networks, workstations, and recurring technology needs.",
+        "outcome": "Outcome: more stable equipment and fewer interruptions."
+      },
+      {
+        "title": "Professional cleaning",
+        "description": "Cleaning services for individuals, companies, offices, premises, communities, and workspaces.",
+        "outcome": "Outcome: cared-for spaces ready for clients, teams, or families."
+      },
+      {
+        "title": "Professional training",
+        "description": "Practical training to adopt digital systems, AI tools, and more efficient work routines.",
         "outcome": "Outcome: higher adoption and sustainable internal capability."
       },
       {
-        "title": "Strategic Consulting",
-        "description": "Support for transformation roadmap, prioritization, and execution risk reduction.",
+        "title": "Strategic consulting",
+        "description": "Support to prioritize improvements, organize processes, and reduce execution risk in technical or operational projects.",
         "outcome": "Outcome: clearer focus and better investment allocation."
       },
       {
-        "title": "Auditing and Compliance Readiness",
-        "description": "Operational and technical assessments to strengthen traceability, governance, and audit readiness.",
-        "outcome": "Outcome: stronger control posture before formal reviews."
+        "title": "Auditing and operational readiness",
+        "description": "Assessments of processes, systems, and maintenance routines to strengthen traceability, control, and compliance.",
+        "outcome": "Outcome: a more organized operation before reviews or major changes."
       }
     ]
   },
   "Projects": {
-    "eyebrow": "Selected work",
-    "title": "Projects",
+    "eyebrow": "Featured work",
+    "title": "Featured project",
     "openDetails": "Click to open video details",
     "closeModalAria": "Close video details",
     "iframeTitleSuffix": "Preview",
@@ -106,84 +123,78 @@
           "📈 History and metrics: weight, habits, and performance evolution",
           "📱 PWA format: works as an installable app from the browser"
         ]
-      },
-      "aiAccountingPortal": {
-        "title": "AI Accounting Portal + ERP",
-        "description": "This portal automates accounting with AI to extract invoice data and validate it directly against an ERP system. It streamlines real-time control of suppliers and documents, ensuring data integrity through bulk synchronization workflows. It supports human supervision and manual correction before final data export to the management system."
-      },
-      "aiStoreChat": {
-        "title": "AI Store Chat Assistant",
-        "description": "It is an AI chat integrated into the store that automates orders from natural-language prompts and also acts as a product search engine. It interprets user intent and generates interactive responses, including product lists and item selection. It supports text interaction and file processing (TXT and CSV) to structure orders automatically."
       }
     },
     "highlightsAria": "Project highlights"
   },
   "process": {
     "eyebrow": "How we execute",
-    "title": "A practical model: from diagnosis to outcome",
+    "title": "A practical model: from diagnosis to intervention",
     "steps": [
       {
-        "title": "Audit and mapping",
-        "description": "We map systems, constraints, and objectives to define a real transformation baseline."
+        "title": "Diagnosis and scope",
+        "description": "We gather needs, constraints, and objectives to define which service fits and what priority it has."
       },
       {
-        "title": "Roadmap and architecture",
-        "description": "We prioritize initiatives, design architecture, and align sequencing with your operational reality."
+        "title": "Proposal and planning",
+        "description": "We organize tasks, timing, materials, or required resources and align expectations before execution."
       },
       {
-        "title": "Implementation and adoption",
-        "description": "We deploy in controlled increments and train key stakeholders for stable adoption."
+        "title": "Coordinated execution",
+        "description": "We intervene with a clear sequence, direct communication, and progress control."
       },
       {
-        "title": "Continuous optimization",
-        "description": "We monitor outcomes, adjust weak points, and transfer reusable playbooks to the internal team."
+        "title": "Follow-up and improvement",
+        "description": "We review the outcome, adjust pending points, and leave recommendations for maintenance or next steps."
       }
     ]
   },
   "standards": {
     "eyebrow": "Standards",
-    "title": "Quality principles in every project",
+    "title": "Quality principles in every service",
     "items": [
       {
-        "title": "Security-first",
-        "description": "Access controls, data boundaries, and secure configurations from day one."
+        "title": "Safety and responsibility",
+        "description": "We work with attention to risks, access, installations, data, and real conditions of each environment."
       },
       {
-        "title": "Observable delivery",
-        "description": "Each phase is documented with explicit checkpoints and business-visible progress."
+        "title": "Traceable delivery",
+        "description": "Each intervention is framed with clear scope, follow-up, and visible communication for the client."
       },
       {
-        "title": "Modular systems",
-        "description": "Solutions are built to evolve without rebuilding everything on every change."
+        "title": "Maintainable solutions",
+        "description": "We prioritize improvements that can be operated, reviewed, and expanded without rebuilding from scratch."
       },
       {
-        "title": "Knowledge transfer",
-        "description": "Internal teams receive practical guidance to operate autonomously after rollout."
+        "title": "Close support",
+        "description": "We provide practical guidance so companies and individuals understand the outcome and next care steps."
       }
     ]
   },
   "contact": {
     "eyebrow": "Next step",
     "title": "Contact",
-    "subtitle": "Share context and priorities. The form opens a pre-filled email for Nébula Sur.",
+    "subtitle": "Share what you need. The form opens a pre-filled email for Nébula Sur.",
     "detailLabels": {
       "email": "Email",
-      "phone": "Phone",
+      "calls": "Calls",
+      "whatsapp": "WhatsApp",
       "location": "Location"
     },
     "details": {
-      "email": "surnebula@gmail.com",
-      "phone": "+34 655 309 861",
+      "email": "atencionalcliente@nebulasur.es",
+      "callPhone": "+34 655 309 861",
+      "whatsappPhones": "+34 655 309 861 / +34 603 40 40 75",
       "location": "Spain"
     },
     "form": {
       "name": "Name",
       "email": "Business email",
-      "company": "Company",
+      "company": "Company or individual",
       "service": "Priority service",
       "servicePlaceholder": "Select one",
-      "message": "Project context",
-      "messagePlaceholder": "Describe challenge, timeline, and expected outcome.",
+      "message": "Request context",
+      "messagePlaceholder": "Describe what you need, approximate location, timing, and expected outcome.",
       "consent": "I agree to be contacted regarding this request.",
       "submit": "Open email draft",
       "success": "Your email draft is ready. Complete sending from your inbox.",
@@ -196,7 +207,19 @@
         },
         {
           "value": "digitalization",
-          "label": "Digitalization program"
+          "label": "Operations digitalization"
+        },
+        {
+          "value": "electricity",
+          "label": "Electrical work"
+        },
+        {
+          "value": "it-maintenance",
+          "label": "IT management and maintenance"
+        },
+        {
+          "value": "cleaning",
+          "label": "Professional cleaning"
         },
         {
           "value": "training",
@@ -205,12 +228,16 @@
         {
           "value": "consulting-audit",
           "label": "Consulting and auditing"
+        },
+        {
+          "value": "multi-service",
+          "label": "Multiservice request"
         }
       ],
       "errors": {
         "name": "Enter at least 2 characters.",
         "email": "Enter a valid email.",
-        "company": "Enter your company name.",
+        "company": "Enter your company name or indicate that you are an individual.",
         "service": "Select a priority service.",
         "message": "Write at least 20 characters.",
         "consent": "Consent is required to continue."
@@ -218,7 +245,7 @@
     }
   },
   "footer": {
-    "note": "AI, automation, and digitalization solutions to move your business into another dimension.",
+    "note": "Technology, electrical work, IT maintenance, and professional cleaning for companies and individuals.",
     "rights": "All rights reserved."
   }
 }
