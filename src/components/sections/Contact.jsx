@@ -11,7 +11,8 @@ const INITIAL_STATE = {
   consent: false
 }
 
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xldrkjyd'
+const NETLIFY_FORM_NAME = 'contact'
+const NETLIFY_EMAIL_SUBJECT = 'Nueva solicitud desde Nebula Sur'
 
 function isValidEmail(value) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
@@ -98,28 +99,30 @@ export default function Contact() {
 
     const selectedService = serviceOptions.find((option) => option.value === formData.service)
     const selectedServiceLabel = selectedService?.label || formData.service
-    const payload = new FormData(event.currentTarget)
-
-    payload.set('name', formData.name.trim())
-    payload.set('email', formData.email.trim())
-    payload.set('phone', formData.phone.trim())
-    payload.set('company', formData.company.trim())
-    payload.set('service', formData.service)
-    payload.set('service_label', selectedServiceLabel)
-    payload.set('message', formData.message.trim())
-    payload.set('consent', formData.consent ? 'yes' : 'no')
+    const payload = new URLSearchParams({
+      'form-name': NETLIFY_FORM_NAME,
+      subject: NETLIFY_EMAIL_SUBJECT,
+      name: formData.name.trim(),
+      email: formData.email.trim(),
+      phone: formData.phone.trim(),
+      company: formData.company.trim(),
+      service: formData.service,
+      service_label: selectedServiceLabel,
+      message: formData.message.trim(),
+      consent: formData.consent ? 'yes' : 'no'
+    })
 
     try {
       setStatus('submitting')
 
-      const response = await fetch(FORMSPREE_ENDPOINT, {
+      const response = await fetch('/', {
         method: 'POST',
-        body: payload,
-        headers: { Accept: 'application/json' }
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: payload.toString()
       })
 
       if (!response.ok) {
-        throw new Error('Formspree contact form submission failed')
+        throw new Error('Contact form submission failed')
       }
 
       setFormData(INITIAL_STATE)
@@ -149,14 +152,15 @@ export default function Contact() {
         </div>
 
         <form
-          id="contactForm"
           className="contact-form"
-          action={FORMSPREE_ENDPOINT}
+          name={NETLIFY_FORM_NAME}
           method="POST"
+          data-netlify="true"
           onSubmit={handleSubmit}
           noValidate
         >
-          <input type="hidden" name="service_label" defaultValue="" />
+          <input type="hidden" name="form-name" value={NETLIFY_FORM_NAME} />
+          <input type="hidden" name="subject" value={NETLIFY_EMAIL_SUBJECT} data-remove-prefix="" />
 
           <label>
             {t('contact.form.name')}
@@ -239,7 +243,6 @@ export default function Contact() {
             <input
               type="checkbox"
               name="consent"
-              value="yes"
               checked={formData.consent}
               onChange={handleChange}
             />
