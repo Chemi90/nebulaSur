@@ -24,8 +24,12 @@ export default function Services() {
                 <p>{service.description}</p>
                 <p className="service-outcome">{service.outcome}</p>
                 {seoService && (
-                  <a className="service-detail-link" href={`/servicios/${seoService.slug}/`}>
-                    {detailCta}
+                  <a
+                    className="service-detail-link"
+                    href={`/servicios/${seoService.slug}/`}
+                    aria-label={`${detailCta}: ${seoService.shortTitle}`}
+                  >
+                    {detailCta}: {seoService.shortTitle}
                   </a>
                 )}
               </article>

@@ -225,7 +225,7 @@ function sharedHead(title, description, canonicalUrl) {
 
     body {
       min-height: 100vh;
-      font-family: Manrope, "Segoe UI", sans-serif;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       color: var(--text);
       background:
         radial-gradient(circle at 10% 8%, rgba(222, 45, 231, 0.18), transparent 34%),
@@ -472,7 +472,7 @@ ${jsonLd(graph)}
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="/">
-        <img src="/logo-mark.jpeg" alt="Símbolo de Nébula Sur" />
+        <img src="/logo-mark.webp" alt="Símbolo de Nébula Sur" width="42" height="42" />
         <span>Nébula Sur</span>
       </a>
       <nav class="nav" aria-label="Navegación principal">
@@ -613,7 +613,7 @@ ${jsonLd(catalogGraph())}
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="/">
-        <img src="/logo-mark.jpeg" alt="Símbolo de Nébula Sur" />
+        <img src="/logo-mark.webp" alt="Símbolo de Nébula Sur" width="42" height="42" />
         <span>Nébula Sur</span>
       </a>
       <nav class="nav" aria-label="Navegación principal">
