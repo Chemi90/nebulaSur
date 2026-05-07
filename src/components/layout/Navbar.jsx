@@ -27,7 +27,13 @@ export default function Navbar() {
     const target = document.getElementById(id)
     if (target) {
       target.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      return
     }
+
+    window.dispatchEvent(new CustomEvent('nebula:reveal-sections'))
+    window.setTimeout(() => {
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 180)
   }
 
   return (
