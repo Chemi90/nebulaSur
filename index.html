@@ -9,12 +9,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nébula Sur | Servicios locales y consultoría online en España</title>
   <meta name="description" content="Nébula Sur atiende electricidad, limpieza y mantenimiento físico en zona local, y ofrece IA, automatización, digitalización, formación y consultoría a distancia en toda España." />
-  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
   <meta name="author" content="Nébula Sur" />
   <meta name="theme-color" content="#1d2847" />
   <meta name="geo.region" content="ES-AN" />
   <meta name="geo.placename" content="España, Granada, Málaga, Andalucía" />
   <link rel="canonical" href="https://nebulasur.es/" />
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+  <link rel="alternate" type="text/plain" title="Resumen para IA" href="/llms.txt" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="es_ES" />
   <meta property="og:site_name" content="Nébula Sur" />
@@ -38,10 +40,23 @@
           "url": "https://nebulasur.es/",
           "logo": "https://nebulasur.es/logo-mark.jpeg",
           "image": "https://nebulasur.es/logo-mark.jpeg",
+          "alternateName": ["Nebula Sur", "NébulaSur"],
+          "slogan": "Tecnología y multiservicios para empresas y particulares",
           "email": "atencionalcliente@nebulasur.es",
           "telephone": "+34655309861",
           "priceRange": "€€",
           "description": "Servicios presenciales de electricidad, limpieza y mantenimiento físico en zona local, junto con IA aplicada, automatización, digitalización, formación y consultoría a distancia para clientes de toda España.",
+          "knowsAbout": [
+            "IA aplicada",
+            "Automatización de procesos",
+            "Digitalización de operaciones",
+            "Electricidad local",
+            "Mantenimiento informático",
+            "Limpieza profesional",
+            "Formación online",
+            "Consultoría estratégica",
+            "Auditoría operativa"
+          ],
           "address": {
             "@type": "PostalAddress",
             "addressRegion": "Andalucía",
@@ -67,11 +82,117 @@
             "@type": "OfferCatalog",
             "name": "Servicios de Nébula Sur",
             "itemListElement": [
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IA aplicada y automatización de procesos online", "areaServed": ["España"], "serviceType": "Remoto" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Digitalización de operaciones a distancia", "areaServed": ["España"], "serviceType": "Remoto" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Formación y consultoría online", "areaServed": ["España"], "serviceType": "Remoto" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Electricidad para empresas y particulares", "areaServed": ["Granada", "Málaga", "Andalucía"], "serviceType": "Presencial local" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Limpieza profesional local", "areaServed": ["Granada", "Málaga", "Andalucía"], "serviceType": "Presencial local" } }
+              {
+                "@type": "Offer",
+                "url": "https://nebulasur.es/servicios/ia-aplicada-automatizacion/",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "IA aplicada y automatización de procesos",
+                  "description": "Diseño de asistentes de IA, automatizaciones y flujos digitales para empresas, autónomos y equipos profesionales en España.",
+                  "areaServed": [{ "@type": "Country", "name": "España" }],
+                  "serviceType": "Servicio remoto"
+                }
+              },
+              {
+                "@type": "Offer",
+                "url": "https://nebulasur.es/servicios/automatizacion-procesos/",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Automatización de procesos",
+                  "description": "Automatización online de tareas repetitivas en ventas, finanzas, soporte y operaciones internas.",
+                  "areaServed": [{ "@type": "Country", "name": "España" }],
+                  "serviceType": "Servicio remoto"
+                }
+              },
+              {
+                "@type": "Offer",
+                "url": "https://nebulasur.es/servicios/digitalizacion-operaciones/",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Digitalización de operaciones",
+                  "description": "Digitalización de documentos, rutinas y workflows internos para equipos y negocios en España.",
+                  "areaServed": [{ "@type": "Country", "name": "España" }],
+                  "serviceType": "Servicio remoto"
+                }
+              },
+              {
+                "@type": "Offer",
+                "url": "https://nebulasur.es/servicios/electricidad-local/",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Electricidad para empresas y particulares",
+                  "description": "Intervenciones eléctricas, revisiones, mantenimiento y soporte presencial local para negocios, oficinas, viviendas y comunidades.",
+                  "areaServed": [
+                    { "@type": "City", "name": "Granada" },
+                    { "@type": "City", "name": "Málaga" },
+                    { "@type": "AdministrativeArea", "name": "Andalucía" }
+                  ],
+                  "serviceType": "Servicio presencial local"
+                }
+              },
+              {
+                "@type": "Offer",
+                "url": "https://nebulasur.es/servicios/mantenimiento-informatico/",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Gestión y mantenimiento informático",
+                  "description": "Soporte y mantenimiento de equipos informáticos, redes y puestos de trabajo, remoto o presencial local según necesidad.",
+                  "areaServed": [
+                    { "@type": "Country", "name": "España" },
+                    { "@type": "City", "name": "Granada" },
+                    { "@type": "City", "name": "Málaga" }
+                  ],
+                  "serviceType": "Servicio remoto o presencial local"
+                }
+              },
+              {
+                "@type": "Offer",
+                "url": "https://nebulasur.es/servicios/limpieza-profesional/",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Limpieza profesional",
+                  "description": "Limpieza profesional local para oficinas, locales, comunidades, espacios de trabajo, empresas y particulares.",
+                  "areaServed": [
+                    { "@type": "City", "name": "Granada" },
+                    { "@type": "City", "name": "Málaga" },
+                    { "@type": "AdministrativeArea", "name": "Andalucía" }
+                  ],
+                  "serviceType": "Servicio presencial local"
+                }
+              },
+              {
+                "@type": "Offer",
+                "url": "https://nebulasur.es/servicios/formacion-profesional/",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Formación profesional online",
+                  "description": "Formación online para adoptar herramientas digitales, IA, automatización y rutinas de trabajo eficientes.",
+                  "areaServed": [{ "@type": "Country", "name": "España" }],
+                  "serviceType": "Servicio remoto"
+                }
+              },
+              {
+                "@type": "Offer",
+                "url": "https://nebulasur.es/servicios/consultoria-estrategica/",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Consultoría estratégica",
+                  "description": "Consultoría online para priorizar mejoras, ordenar procesos y reducir riesgos en proyectos técnicos u operativos.",
+                  "areaServed": [{ "@type": "Country", "name": "España" }],
+                  "serviceType": "Servicio remoto"
+                }
+              },
+              {
+                "@type": "Offer",
+                "url": "https://nebulasur.es/servicios/auditoria-operativa/",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Auditoría y preparación operativa",
+                  "description": "Auditorías remotas de procesos, sistemas y rutinas de mantenimiento para fortalecer trazabilidad y control.",
+                  "areaServed": [{ "@type": "Country", "name": "España" }],
+                  "serviceType": "Servicio remoto"
+                }
+              }
             ]
           }
         },
@@ -91,6 +212,7 @@
           "description": "Electricidad, limpieza y mantenimiento físico en zona local; IA, automatización, digitalización, formación y consultoría a distancia en toda España.",
           "isPartOf": { "@id": "https://nebulasur.es/#website" },
           "about": { "@id": "https://nebulasur.es/#business" },
+          "mainEntity": { "@id": "https://nebulasur.es/#business" },
           "inLanguage": "es-ES"
         },
         {

@@ -13,7 +13,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'sha256-DRLV54ZrIh39ugI0EbHYbGtJJjMr0s7AmSHtmfLa+70='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; frame-src https://www.youtube-nocookie.com; connect-src 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+    Content-Security-Policy = "default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'sha256-FAdsPZLMJZEweMRdXr7JVYiQcThEmIanD0nXL0RSMfw=' 'sha256-nSMMHKJeG9zdthZhYgBIA17U6S+trKX1uj6U6hsOL2s=' 'sha256-pxJPaDYqd3MVtVXtzAoQb+t5+jBmK9Bh95y+nCrhDjc=' 'sha256-wfqp98vWitcMkPsHAfO9f+HmnnJbHsP50eii3BjqrbY=' 'sha256-NN/ZYRWCx7ns0IMdETSulkDVGcHN4S05ayQU2YADuEg=' 'sha256-coZ6oQt6dNLU7HrUxqBodYBwa8eqo6o3TTMXxtPyJDA=' 'sha256-fqx97hwTjzYZoUusWdaH1lozvYaQxyG0RzjeJbLWefU=' 'sha256-WysItEor6qmVnxHfWLPxzij29hmpBE5NjKUp5VQNFTc=' 'sha256-JsUXdqPUuiMQjEncM9OyV9rtTE+K86w+eDybEWL0Lkk=' 'sha256-8rvlu7mXo13Jb82nHbxB80kUXJ+ImbRI3EvWEXp0ZEo=' 'sha256-E5sOVCMzLTkJMpzHbP3OTqYEq5WCbO/V8lPID1MmUX4='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; frame-src https://www.youtube-nocookie.com; connect-src 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"

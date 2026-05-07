@@ -499,6 +499,22 @@ img {
   font-weight: 600;
 }
 
+.service-detail-link {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: 0.9rem;
+  color: var(--primary);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.service-detail-link:hover {
+  color: #f0eff1;
+  text-shadow: 0 0 14px rgba(27, 219, 239, 0.45);
+}
+
 .videos-stack {
   margin-top: 2rem;
   display: grid;
