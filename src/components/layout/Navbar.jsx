@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { useLanguage } from '../../context/LanguageContext'
-import logoMark from '../../assets/logo-mark.jpeg'
+import logoMark from '../../assets/logo-mark.webp'
 
 const languages = [
   { code: 'en', label: 'EN' },
@@ -27,14 +27,20 @@ export default function Navbar() {
     const target = document.getElementById(id)
     if (target) {
       target.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      return
     }
+
+    window.dispatchEvent(new CustomEvent('nebula:reveal-sections'))
+    window.setTimeout(() => {
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 180)
   }
 
   return (
     <header className="site-header">
       <div className="container header-inner">
         <a className="brand" href="#home" onClick={(event) => handleAnchorClick(event, 'home')}>
-          <img src={logoMark} alt="Nébula Sur symbol" className="brand-logo" />
+          <img src={logoMark} alt="Nébula Sur symbol" className="brand-logo" width="46" height="46" />
           <span className="brand-name">Nébula Sur</span>
         </a>
 

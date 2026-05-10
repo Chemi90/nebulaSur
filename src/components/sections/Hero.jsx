@@ -1,5 +1,6 @@
 import { useLanguage } from '../../context/LanguageContext'
 import logoMark from '../../assets/logo-mark.jpeg'
+import logoMarkWebp from '../../assets/logo-mark.webp'
 
 export default function Hero() {
   const { t } = useLanguage()
@@ -29,8 +30,19 @@ export default function Hero() {
         </div>
 
         <aside className="hero-visual" aria-label="Nébula Sur brand panel">
-          <img src={logoMark} alt="Nébula Sur symbol" className="hero-logo" />
-          <h3 className="hero-visual-brand">Nébula Sur</h3>
+          <picture>
+            <source srcSet={logoMarkWebp} type="image/webp" />
+            <img
+              src={logoMark}
+              alt="Nébula Sur symbol"
+              className="hero-logo"
+              width="460"
+              height="399"
+              fetchPriority="high"
+              decoding="async"
+            />
+          </picture>
+          <p className="hero-visual-brand">Nébula Sur</p>
           <p>{t('hero.visualCaption')}</p>
         </aside>
       </div>

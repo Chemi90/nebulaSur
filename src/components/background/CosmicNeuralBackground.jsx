@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import useReducedMotion from '../../hooks/useReducedMotion'
 
 const MIN_STAR_COUNT = 90
@@ -59,8 +59,32 @@ function createNodePair(count, previousPair = null) {
 export default function CosmicNeuralBackground() {
   const canvasRef = useRef(null)
   const reducedMotion = useReducedMotion()
+  const [shouldStart, setShouldStart] = useState(false)
 
   useEffect(() => {
+    if (shouldStart) {
+      return undefined
+    }
+
+    const start = () => setShouldStart(true)
+    const timeoutId = window.setTimeout(start, 2600)
+    const listenerOptions = { once: true, passive: true }
+
+    window.addEventListener('pointermove', start, listenerOptions)
+    window.addEventListener('scroll', start, listenerOptions)
+    window.addEventListener('touchstart', start, listenerOptions)
+
+    return () => {
+      window.clearTimeout(timeoutId)
+      window.removeEventListener('pointermove', start, listenerOptions)
+      window.removeEventListener('scroll', start, listenerOptions)
+      window.removeEventListener('touchstart', start, listenerOptions)
+    }
+  }, [shouldStart])
+
+  useEffect(() => {
+    if (!shouldStart) return undefined
+
     const canvas = canvasRef.current
     if (!canvas) return undefined
 
@@ -465,11 +489,11 @@ export default function CosmicNeuralBackground() {
       window.removeEventListener('pointerleave', handlePointerLeave)
       window.cancelAnimationFrame(animationFrameId)
     }
-  }, [reducedMotion])
+  }, [reducedMotion, shouldStart])
 
   return (
     <div className="cosmic-background" aria-hidden="true">
-      <canvas ref={canvasRef} className="cosmic-canvas" />
+      {shouldStart && <canvas ref={canvasRef} className="cosmic-canvas" />}
     </div>
   )
 }

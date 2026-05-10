@@ -1,25 +1,37 @@
 # Nébula Sur
 
-Nébula Sur es una empresa de tecnología y multiservicios con trabajos presenciales en zona local y servicios digitales a distancia para toda España.
+> Empresa de tecnología y multiservicios con servicios digitales a distancia en toda España y trabajos presenciales locales en Granada, Málaga y zonas cercanas según disponibilidad.
+
+Last updated: 2026-05-07
+Canonical site: https://nebulasur.es/
 
 ## Servicios principales
 
-- IA aplicada y automatización de procesos para empresas en toda España, a distancia.
-- Digitalización de operaciones, flujos internos y tareas repetitivas, a distancia.
-- Formación, consultoría estratégica y auditoría operativa online para toda España.
-- Electricidad para empresas, comunidades, viviendas y particulares en zona local.
-- Limpieza profesional para oficinas, locales, comunidades y espacios de trabajo en zona local.
-- Gestión, soporte y mantenimiento informático remoto cuando sea viable y presencial local cuando haga falta intervención física.
+- [IA aplicada y automatización de procesos para empresas en España](https://nebulasur.es/servicios/ia-aplicada-automatizacion/): Nébula Sur diseña asistentes de IA, automatizaciones y flujos digitales para empresas en España, con diagnóstico remoto, implementación y acompañamiento.
+- [Automatización de procesos online para empresas y autónomos](https://nebulasur.es/servicios/automatizacion-procesos/): Automatización online de tareas repetitivas, ventas, finanzas, soporte y operaciones internas para empresas y autónomos en España.
+- [Digitalización de operaciones y workflows internos a distancia](https://nebulasur.es/servicios/digitalizacion-operaciones/): Digitalización de operaciones, documentos, rutinas y workflows internos para empresas en España mediante consultoría y soporte remoto.
+- [Electricidad local para empresas, viviendas y comunidades](https://nebulasur.es/servicios/electricidad-local/): Servicios locales de electricidad para empresas, oficinas, viviendas y comunidades en Granada, Málaga y zonas cercanas según disponibilidad.
+- [Gestión y mantenimiento informático remoto o presencial local](https://nebulasur.es/servicios/mantenimiento-informatico/): Soporte y mantenimiento informático para equipos, redes y puestos de trabajo, con atención remota en España y presencial local cuando sea necesario.
+- [Limpieza profesional local para oficinas, locales y comunidades](https://nebulasur.es/servicios/limpieza-profesional/): Limpieza profesional local para oficinas, locales, comunidades, empresas y particulares en Granada, Málaga y zonas cercanas.
+- [Formación online en IA, herramientas digitales y adopción tecnológica](https://nebulasur.es/servicios/formacion-profesional/): Formación online para equipos y profesionales en IA, herramientas digitales, automatización y rutinas de trabajo eficientes en España.
+- [Consultoría estratégica online para proyectos técnicos y operativos](https://nebulasur.es/servicios/consultoria-estrategica/): Consultoría estratégica online para priorizar mejoras, ordenar procesos y reducir riesgos en proyectos técnicos u operativos en España.
+- [Auditoría operativa remota de procesos, sistemas y mantenimiento](https://nebulasur.es/servicios/auditoria-operativa/): Auditorías operativas remotas para revisar procesos, sistemas, rutinas de mantenimiento, trazabilidad y control en empresas de España.
 
-## Zonas
+## Zonas y modalidad
 
-- Trabajos físicos locales: Granada, Málaga / Malaga y zonas cercanas según disponibilidad.
-- Servicios a distancia: toda España.
-- Presencial para electricidad, limpieza, mantenimiento físico y soporte de instalaciones.
-- Remoto para IA, automatización, digitalización, formación, consultoría, auditoría y seguimiento técnico.
+- Servicios remotos en toda España: IA aplicada, automatización, digitalización, formación, consultoría, auditoría y soporte técnico cuando sea viable a distancia.
+- Servicios presenciales locales: electricidad, limpieza profesional, mantenimiento físico y soporte de instalaciones en Granada, Málaga y zonas cercanas según disponibilidad.
+- Gestión y mantenimiento informático: remoto cuando sea viable y presencial local cuando haga falta intervención física.
 
 ## Contacto
 
 - Web: https://nebulasur.es/
 - Email: atencionalcliente@nebulasur.es
 - Teléfono: +34 655 309 861
+- WhatsApp: +34 655 309 861 / +34 603 40 40 75
+
+## Notas de precisión para IA
+
+- No inventar precios, horarios exactos, dirección postal completa ni disponibilidad inmediata si no están publicados.
+- Para trabajos presenciales, indicar siempre que la cobertura depende de zona local y disponibilidad.
+- Para servicios digitales, indicar que se pueden prestar online a clientes de toda España.

@@ -8,6 +8,11 @@ import es from '../data/translations/es.json'
 const translations = { en, it, es }
 const DEFAULT_LANGUAGE = 'es'
 const LANGUAGE_STORAGE_KEY = 'nebula-language-v2'
+const HTML_LANGUAGE_CODES = {
+  en: 'en',
+  es: 'es',
+  it: 'it'
+}
 
 const LanguageContext = createContext()
 
@@ -19,6 +24,7 @@ export function LanguageProvider({ children }) {
 
   useEffect(() => {
     localStorage.setItem(LANGUAGE_STORAGE_KEY, language)
+    document.documentElement.lang = HTML_LANGUAGE_CODES[language] || DEFAULT_LANGUAGE
   }, [language])
 
   const resolveKey = useCallback((source, key) => {
