@@ -58,52 +58,160 @@
     "eyebrow": "Qué hacemos",
     "title": "Tecnología y multiservicios en un solo equipo",
     "subtitle": "Nébula Sur combina transformación digital con servicios esenciales para empresas, profesionales y particulares.",
-    "detailCta": "Ver detalle del servicio",
+    "groupsAria": "Grupos de servicios",
+    "serviceSingular": "servicio",
+    "servicePlural": "servicios",
+    "taskSingular": "tarea",
+    "taskPlural": "tareas",
+    "groups": [
+      {
+        "title": "Mantenimiento eléctrico",
+        "description": "Intervenciones eléctricas, revisiones y soporte presencial local para viviendas, oficinas, negocios y comunidades.",
+        "serviceIndexes": [
+          3
+        ]
+      },
+      {
+        "title": "Consultoría Tech",
+        "description": "IA, automatización, digitalización, consultoría y auditoría operativa para ordenar y mejorar procesos.",
+        "serviceIndexes": [
+          0,
+          1,
+          2,
+          7,
+          8
+        ]
+      },
+      {
+        "title": "Mantenimiento informático",
+        "description": "Soporte de equipos, redes y puestos de trabajo, con atención remota o presencial local cuando haga falta.",
+        "serviceIndexes": [
+          4
+        ]
+      },
+      {
+        "title": "Limpieza",
+        "description": "Limpieza profesional local para oficinas, locales, comunidades, empresas y particulares.",
+        "serviceIndexes": [
+          5
+        ]
+      },
+      {
+        "title": "Formación y adopción digital",
+        "description": "Sesiones prácticas para que equipos y profesionales incorporen herramientas digitales e IA con autonomía.",
+        "serviceIndexes": [
+          6
+        ]
+      }
+    ],
     "items": [
       {
         "title": "Sistemas de IA aplicados",
         "description": "Diseño e implementación a distancia de asistentes de IA, flujos de recuperación y herramientas de apoyo a la toma de decisiones para clientes de toda España.",
-        "outcome": "Resultado: decisiones más rápidas con menos fricción operativa."
+        "outcome": "Resultado: decisiones más rápidas con menos fricción operativa.",
+        "tasks": [
+          "Asistentes de IA",
+          "Chatbots internos",
+          "Búsqueda en documentos",
+          "Apoyo a decisiones",
+          "Integración con herramientas"
+        ]
       },
       {
         "title": "Automatización de procesos",
         "description": "Automatización online de tareas repetitivas en ventas, finanzas, soporte y operaciones internas con controles claros.",
-        "outcome": "Resultado: menor carga manual y menos cuellos de botella."
+        "outcome": "Resultado: menor carga manual y menos cuellos de botella.",
+        "tasks": [
+          "Tareas repetitivas",
+          "Alertas y avisos",
+          "Flujos administrativos",
+          "Seguimiento comercial",
+          "Informes automáticos"
+        ]
       },
       {
         "title": "Digitalización de operaciones",
         "description": "Migración a distancia de rutinas manuales hacia workflows digitales conectados, trazables y fáciles de mantener.",
-        "outcome": "Resultado: datos más limpios y mayor consistencia operativa."
+        "outcome": "Resultado: datos más limpios y mayor consistencia operativa.",
+        "tasks": [
+          "Documentos digitales",
+          "Workflows internos",
+          "Plantillas de trabajo",
+          "Orden de datos",
+          "Migración guiada"
+        ]
       },
       {
         "title": "Electricidad para empresas y particulares",
         "description": "Intervenciones eléctricas, mantenimiento, revisiones y soporte presencial local para negocios, oficinas, viviendas y comunidades.",
-        "outcome": "Resultado: instalaciones más seguras, funcionales y preparadas para el uso diario."
+        "outcome": "Resultado: instalaciones más seguras, funcionales y preparadas para el uso diario.",
+        "tasks": [
+          "Averías eléctricas",
+          "Revisiones",
+          "Mantenimiento",
+          "Pequeñas instalaciones",
+          "Comunidades y oficinas"
+        ]
       },
       {
         "title": "Gestión y mantenimiento informático",
         "description": "Soporte, revisión y mantenimiento de equipos informáticos, redes y puestos de trabajo, con atención remota cuando sea viable y presencial local cuando haga falta intervenir físicamente.",
-        "outcome": "Resultado: equipos más estables y menos interrupciones en la actividad."
+        "outcome": "Resultado: equipos más estables y menos interrupciones en la actividad.",
+        "tasks": [
+          "Soporte remoto",
+          "Equipos y puestos",
+          "Redes y conexión",
+          "Mantenimiento preventivo",
+          "Intervención local"
+        ]
       },
       {
         "title": "Limpieza profesional",
         "description": "Servicios presenciales locales de limpieza para particulares, empresas, oficinas, locales, comunidades y espacios de trabajo.",
-        "outcome": "Resultado: espacios cuidados, operativos y listos para clientes, equipos o familias."
+        "outcome": "Resultado: espacios cuidados, operativos y listos para clientes, equipos o familias.",
+        "tasks": [
+          "Oficinas",
+          "Locales",
+          "Comunidades",
+          "Viviendas",
+          "Limpiezas puntuales"
+        ]
       },
       {
         "title": "Formación profesional",
         "description": "Capacitación online para adoptar sistemas digitales, herramientas de IA y rutinas de trabajo más eficientes desde cualquier punto de España.",
-        "outcome": "Resultado: mayor adopción y capacidad interna sostenible."
+        "outcome": "Resultado: mayor adopción y capacidad interna sostenible.",
+        "tasks": [
+          "Formación en IA",
+          "Herramientas digitales",
+          "Automatización básica",
+          "Rutinas de equipo",
+          "Material práctico"
+        ]
       },
       {
         "title": "Consultoría estratégica",
         "description": "Consultoría a distancia para priorizar mejoras, ordenar procesos y reducir riesgos de ejecución en proyectos técnicos u operativos.",
-        "outcome": "Resultado: foco más claro y mejor asignación de inversión."
+        "outcome": "Resultado: foco más claro y mejor asignación de inversión.",
+        "tasks": [
+          "Diagnóstico",
+          "Priorización",
+          "Mapa de procesos",
+          "Plan de acción",
+          "Decisiones técnicas"
+        ]
       },
       {
         "title": "Auditoría y preparación operativa",
         "description": "Auditorías remotas de procesos, sistemas y rutinas de mantenimiento para fortalecer trazabilidad, control y cumplimiento.",
-        "outcome": "Resultado: una operación más ordenada antes de revisiones o cambios relevantes."
+        "outcome": "Resultado: una operación más ordenada antes de revisiones o cambios relevantes.",
+        "tasks": [
+          "Revisión de procesos",
+          "Riesgos ocultos",
+          "Trazabilidad",
+          "Controles internos",
+          "Informe de mejoras"
+        ]
       }
     ]
   },

@@ -58,52 +58,160 @@
     "eyebrow": "What we do",
     "title": "Technology and multiservices in one team",
     "subtitle": "Nébula Sur combines digital transformation with essential services for companies, professionals, and individuals.",
-    "detailCta": "View service detail",
+    "groupsAria": "Service groups",
+    "serviceSingular": "service",
+    "servicePlural": "services",
+    "taskSingular": "task",
+    "taskPlural": "tasks",
+    "groups": [
+      {
+        "title": "Electrical maintenance",
+        "description": "Electrical interventions, inspections, and local on-site support for homes, offices, businesses, and communities.",
+        "serviceIndexes": [
+          3
+        ]
+      },
+      {
+        "title": "Tech consulting",
+        "description": "AI, automation, digitalization, consulting, and operational auditing to organize and improve processes.",
+        "serviceIndexes": [
+          0,
+          1,
+          2,
+          7,
+          8
+        ]
+      },
+      {
+        "title": "IT maintenance",
+        "description": "Support for equipment, networks, and workstations, with remote service or local on-site attention when needed.",
+        "serviceIndexes": [
+          4
+        ]
+      },
+      {
+        "title": "Cleaning",
+        "description": "Local professional cleaning for offices, premises, communities, companies, and individuals.",
+        "serviceIndexes": [
+          5
+        ]
+      },
+      {
+        "title": "Training and digital adoption",
+        "description": "Practical sessions so teams and professionals can adopt digital tools and AI with autonomy.",
+        "serviceIndexes": [
+          6
+        ]
+      }
+    ],
     "items": [
       {
         "title": "Applied AI systems",
         "description": "Remote design and implementation of AI assistants, retrieval flows, and decision-support tools for clients across Spain.",
-        "outcome": "Outcome: faster decisions with less operational friction."
+        "outcome": "Outcome: faster decisions with less operational friction.",
+        "tasks": [
+          "AI assistants",
+          "Internal chatbots",
+          "Document search",
+          "Decision support",
+          "Tool integration"
+        ]
       },
       {
         "title": "Process automation",
         "description": "Online automation of repetitive tasks in sales, finance, support, and internal operations with clear controls.",
-        "outcome": "Outcome: lower manual workload and fewer bottlenecks."
+        "outcome": "Outcome: lower manual workload and fewer bottlenecks.",
+        "tasks": [
+          "Repetitive tasks",
+          "Alerts and notices",
+          "Admin workflows",
+          "Sales follow-up",
+          "Automatic reports"
+        ]
       },
       {
         "title": "Operations digitalization",
         "description": "Remote migration from manual routines to connected, traceable, and maintainable digital workflows.",
-        "outcome": "Outcome: cleaner data and greater operational consistency."
+        "outcome": "Outcome: cleaner data and greater operational consistency.",
+        "tasks": [
+          "Digital documents",
+          "Internal workflows",
+          "Work templates",
+          "Data organization",
+          "Guided migration"
+        ]
       },
       {
         "title": "Electrical work for companies and individuals",
         "description": "Electrical interventions, maintenance, inspections, and local on-site support for businesses, offices, homes, and communities.",
-        "outcome": "Outcome: safer, more functional installations ready for daily use."
+        "outcome": "Outcome: safer, more functional installations ready for daily use.",
+        "tasks": [
+          "Electrical faults",
+          "Inspections",
+          "Maintenance",
+          "Small installations",
+          "Communities and offices"
+        ]
       },
       {
         "title": "IT management and maintenance",
         "description": "Support, inspection, and maintenance for IT equipment, networks, and workstations, with remote service when viable and local on-site service when physical intervention is required.",
-        "outcome": "Outcome: more stable equipment and fewer interruptions."
+        "outcome": "Outcome: more stable equipment and fewer interruptions.",
+        "tasks": [
+          "Remote support",
+          "Devices and workstations",
+          "Networks and connection",
+          "Preventive maintenance",
+          "Local intervention"
+        ]
       },
       {
         "title": "Professional cleaning",
         "description": "Local on-site cleaning services for individuals, companies, offices, premises, communities, and workspaces.",
-        "outcome": "Outcome: cared-for spaces ready for clients, teams, or families."
+        "outcome": "Outcome: cared-for spaces ready for clients, teams, or families.",
+        "tasks": [
+          "Offices",
+          "Premises",
+          "Communities",
+          "Homes",
+          "One-off cleaning"
+        ]
       },
       {
         "title": "Professional training",
         "description": "Online training to adopt digital systems, AI tools, and more efficient work routines from anywhere in Spain.",
-        "outcome": "Outcome: higher adoption and sustainable internal capability."
+        "outcome": "Outcome: higher adoption and sustainable internal capability.",
+        "tasks": [
+          "AI training",
+          "Digital tools",
+          "Basic automation",
+          "Team routines",
+          "Practical material"
+        ]
       },
       {
         "title": "Strategic consulting",
         "description": "Remote consulting to prioritize improvements, organize processes, and reduce execution risk in technical or operational projects.",
-        "outcome": "Outcome: clearer focus and better investment allocation."
+        "outcome": "Outcome: clearer focus and better investment allocation.",
+        "tasks": [
+          "Diagnosis",
+          "Prioritization",
+          "Process mapping",
+          "Action plan",
+          "Technical decisions"
+        ]
       },
       {
         "title": "Auditing and operational readiness",
         "description": "Remote assessments of processes, systems, and maintenance routines to strengthen traceability, control, and compliance.",
-        "outcome": "Outcome: a more organized operation before reviews or major changes."
+        "outcome": "Outcome: a more organized operation before reviews or major changes.",
+        "tasks": [
+          "Process review",
+          "Hidden risks",
+          "Traceability",
+          "Internal controls",
+          "Improvement report"
+        ]
       }
     ]
   },
