@@ -3,6 +3,7 @@ import { LanguageProvider } from './context/LanguageContext'
 import Navbar from './components/layout/Navbar'
 import Hero from './components/sections/Hero'
 import Metrics from './components/sections/Metrics'
+import LuminenVote from './components/sections/LuminenVote'
 
 const CosmicNeuralBackground = lazy(() => import('./components/background/CosmicNeuralBackground'))
 const Services = lazy(() => import('./components/sections/Services'))
@@ -121,6 +122,7 @@ function App() {
 
         <main className="site-main">
           <Hero />
+          <LuminenVote />
           <Metrics />
           <DeferredContent />
         </main>

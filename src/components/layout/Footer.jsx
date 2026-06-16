@@ -6,6 +6,7 @@ export default function Footer() {
 
   const footerLinks = useMemo(() => ([
     { id: 'home', label: t('nav.home') },
+    { id: 'vote', label: t('nav.vote') },
     { id: 'services', label: t('nav.services') },
     { id: 'projects', label: t('nav.Projects') },
     { id: 'areas', label: t('nav.areas') },
