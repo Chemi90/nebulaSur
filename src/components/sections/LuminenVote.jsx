@@ -1,6 +1,6 @@
 import { useLanguage } from '../../context/LanguageContext'
 
-const VOTE_URL = 'https://granadavalley.es/1o-premios-luminen/#:~:text=N%C3%A9bula%20Sur%20nace%20en%20Granada'
+const VOTE_URL = 'https://granadavalley.es/1o-premios-luminen/#:~:text=N%C3%A9bula%20Sur-,VOTA'
 
 export default function LuminenVote() {
   const { t } = useLanguage()
