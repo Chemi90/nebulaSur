@@ -19,6 +19,8 @@ export default function LuminenVote() {
           <a
             className="btn btn-lumen"
             href={VOTE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             {t('luminen.cta')}
           </a>
