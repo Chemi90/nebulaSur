@@ -186,16 +186,6 @@ img {
   border-color: rgba(27, 219, 239, 0.65);
 }
 
-.btn-lumen {
-  background: linear-gradient(120deg, #ffd36b, var(--primary) 55%, var(--accent));
-  color: #100c1c;
-  box-shadow: 0 16px 32px rgba(255, 211, 107, 0.18);
-}
-
-.btn-lumen:hover {
-  box-shadow: 0 20px 38px rgba(27, 219, 239, 0.28);
-}
-
 .site-header {
   position: fixed;
   top: 0;
@@ -476,42 +466,6 @@ img {
   color: var(--text-muted);
   line-height: 1.6;
   font-size: 0.92rem;
-}
-
-.vote-section {
-  padding: clamp(3.8rem, 6vw, 5.6rem) 0;
-  border-top: 1px solid rgba(255, 211, 107, 0.16);
-  border-bottom: 1px solid rgba(27, 219, 239, 0.1);
-  background:
-    linear-gradient(120deg, rgba(255, 211, 107, 0.08), transparent 36%),
-    linear-gradient(100deg, rgba(27, 219, 239, 0.08), rgba(222, 45, 231, 0.06));
-}
-
-.vote-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: clamp(1.3rem, 4vw, 3rem);
-  align-items: center;
-}
-
-.vote-copy .section-subtitle {
-  max-width: 790px;
-}
-
-.vote-action {
-  display: grid;
-  gap: 0.85rem;
-  justify-items: end;
-  min-width: min(100%, 240px);
-}
-
-.vote-award {
-  color: #ffd36b;
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  text-align: right;
-  text-transform: uppercase;
 }
 
 .services-section,
@@ -1371,7 +1325,6 @@ img {
 
   .contact-grid,
   .footer-inner,
-  .vote-layout,
   .areas-layout,
   .standards-grid {
     grid-template-columns: 1fr;
@@ -1382,14 +1335,6 @@ img {
   }
 
   .footer-rights {
-    text-align: left;
-  }
-
-  .vote-action {
-    justify-items: start;
-  }
-
-  .vote-award {
     text-align: left;
   }
 

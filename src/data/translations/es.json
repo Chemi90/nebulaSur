@@ -7,7 +7,6 @@
     "standards": "Estándares",
     "areas": "Zonas",
     "contact": "Contacto",
-    "vote": "Votar",
     "selectLanguage": "Idioma"
   },
   "hero": {
@@ -54,13 +53,6 @@
         "description": "Servicios adaptados a oficinas, negocios, hogares, comunidades y equipos profesionales."
       }
     ]
-  },
-  "luminen": {
-    "eyebrow": "Premios Luminen",
-    "title": "Apoya a Nébula Sur en los Premios Luminen",
-    "subtitle": "Nébula Sur participa en los Premios Luminen de Granada Valley. El enlace te lleva directamente a nuestra candidatura para votar desde la página oficial.",
-    "award": "Granada Valley",
-    "cta": "Votar a Nébula Sur"
   },
   "services": {
     "eyebrow": "Qué hacemos",
